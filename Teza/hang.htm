@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<style>
+			.board {
+				display: flex;
+				justify-content: flex-start;
+				margin: auto;
+				margin-bottom: 1rem;
+			}
+
+			.cell {
+				display: flex;
+				border: 1px solid;
+				align-content: center;
+				justify-content: center;
+				font-size: 10vw;
+				width: 15vw;
+				height: 15vw;
+			}
+
+			.keyboard .btn {
+				width: 10%;
+				min-width: 2.5rem;
+			}
+
+		</style>
+		<script src="hang.js?1"></script>
+
+    <title>Pipargurķis © Madara</title>
+  </head>
+  <body>
+  	<input type="hidden" id="word">
+		<div class="container">
+			<h1>Uzmini vārdu!</h1>
+			<div class="board" id="board">
+			</div>
+			<div class="row">
+				<div class="col">
+					<p id="word-info"></p>
+				</div>
+			</div>
+			<div class="row attempts">
+				<div id='attempts' class="col">
+				</div>
+			</div>
+			<div id="keyboard" class="row keyboard mt-2">
+			</div>
+
+			<div class="row mt-2">
+				<button class='btn btn-primary' onclick="newWord()">Minēt citu vārdu</button>
+			</div>
+
+		</div>
+  </body>
+</html>
