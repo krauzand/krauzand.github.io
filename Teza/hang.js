@@ -1,6 +1,7 @@
 let maxAttempts = 11;
 let attempts = 0;
 
+
 function getRandomInt(min, max) {
 	min = Math.ceil(min);
 	max = Math.floor(max);
@@ -58,6 +59,13 @@ function getCell(index) {
 
 function changeLetter(index, letter) {
 	getCell(index).innerHTML = letter;
+	
+	anime({
+	  targets: '#'+getCell(index).id,
+	  scale: 1.5,
+	  direction: 'alternate',
+	  delay: 10,
+	});
 }
 
 function checkLetter(element) {
@@ -105,10 +113,25 @@ function reveal() {
 		changeLetter(index,item)
 	});
 	showInfo();
+
+	anime({
+	  targets: '.attempts .badge',
+	  translateY: document.getElementById('new-word').getBoundingClientRect().top,
+	  delay: anime.stagger(200),
+	  //direction: 'alternate'
+	});	
 }
 
 function celebrate() {
 	showInfo();
+	anime({
+	  targets: '.attempts .badge',
+	  scale: 1.5,
+	  translateX: 30,
+	  direction: 'alternate',
+	  delay: anime.stagger(50),
+	});
+
 }
 
 function showInfo() {
