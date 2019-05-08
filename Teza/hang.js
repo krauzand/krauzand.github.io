@@ -14,7 +14,7 @@ function newWord() {
 		.then(response => response.json())
 		.then(function (json) {
 
-			let wordLen = getRandomInt(4,8);
+			let wordLen = getRandomInt(4,6);
 			let i = Math.trunc(Math.random() * json[wordLen].length);
 
 			let word = json[wordLen][i].word;
@@ -33,10 +33,11 @@ function newWord() {
 			//init keyboard
 			let letters = ['A', 'Ā', 'B', 'C', 'Č', 'D', 'E', 'Ē', 'F', 'G', 'Ģ', 'H', 'I', 'Ī', 'J', 'K', 'Ķ', 'L', 'Ļ', 'M', 'N', 'Ņ', 'O', 'P', 'R', 'S', 'Š', 'T', 'U', 'Ū', 'V', 'Z', 'Ž'];
 			let keyboard = document.getElementById('keyboard');
-			keyboard.innerHTML = '';
+			keyboard.innerHTML = "";
 			letters.forEach(function(letter, index){
 				keyboard.innerHTML += "<button class='btn btn-outline-secondary m-1' onclick='checkLetter(this)'>"+letter+"</button>"
 			});
+			keyboard.innerHTML += "<button id='new-word' class='btn btn-primary' onclick='newWord()'>Minēt citu vārdu</button>";
 
 			//init attempts
 			let attempts = document.getElementById('attempts');
@@ -62,7 +63,7 @@ function changeLetter(index, letter) {
 	
 	anime({
 	  targets: '#'+getCell(index).id,
-	  scale: 1.5,
+	  scale: 1.25,
 	  direction: 'alternate',
 	  delay: 10,
 	});
@@ -116,7 +117,7 @@ function reveal() {
 
 	anime({
 	  targets: '.attempts .badge',
-	  translateY: document.getElementById('new-word').getBoundingClientRect().top,
+	  translateY: document.getElementById('footer-info').getBoundingClientRect().top,
 	  delay: anime.stagger(200),
 	  //direction: 'alternate'
 	});	

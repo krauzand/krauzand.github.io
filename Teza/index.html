@@ -1,10 +1,11 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
     <!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 	<style>
@@ -30,11 +31,14 @@
 				width: 10%;
 				min-width: 2.5rem;
 			}
+			#new-word {
+				width: auto;
+			}
 
 		</style>
 		<script src="anime.min.js?3.0.1"></script>
 		<script src="hang.js?3"></script>
-    <title>Vārdu minēšanas spēle Pipargurķis (© Madara)</title>
+    <title>Pipargurķis | Vārdu minēšanas spēle</title>
   </head>
   <body>
   	<input type="hidden" id="word">
@@ -43,19 +47,25 @@
 			<div class="board" id="board">
 			</div>
 			<div class="row">
-				<div class="col">
-					<p id="word-info"></p>
-				</div>
+				<p class='col' id="word-info"></p>
 			</div>
 			<div class="row attempts">
 				<div id='attempts' class="col">
 				</div>
 			</div>
-			<div id="keyboard" class="row keyboard mt-2">
+			<div class='row mt-2'>
+				<div id="keyboard" class="keyboard col">		
+				</div>
 			</div>
 
-			<div class="row mt-2">
-				<button id='new-word' class='btn btn-primary' onclick="newWord()">Minēt citu vārdu</button>
+			<div id="footer-info" class="row mt-4">
+				<p class='col text-muted text-small'>Vārdu minēšanas spēle Pipargurķis. Ļoti līdzīga spēlei - Karātavas. Ar noteiktu mēģinājumu skaitu uzminiet vārdu. © 
+						<script type="text/javascript">
+							var d = new Date()
+							document.write(d.getFullYear())
+						</script>
+					Andris Krauze, Madara Krauze (izdomāja nosaukumu).</p>
+
 			</div>
 
 		</div>
