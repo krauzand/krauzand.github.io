@@ -129,7 +129,7 @@ function celebrate() {
 	  scale: 1.5,
 	  translateX: 30,
 	  direction: 'alternate',
-	  delay: anime.stagger(50),
+	  delay: anime.stagger(50, {start: 500}),
 	});
 
 }
