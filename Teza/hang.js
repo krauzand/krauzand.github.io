@@ -69,23 +69,37 @@ function changeLetter(index, letter) {
 	});
 }
 
-function checkLetter(element) {
-	let complete = true;
-	let correctGuess = false;
-	let letter = element.innerHTML;
+function getWordLetters() {
 	let word = document.querySelector('#word').value;
 	let wordLetters = word.split('');
-	wordLetters.forEach(function(item, index){
+	return wordLetters;
+}
+
+function isComplete(){
+	
+	let complete = true;
+	getWordLetters().forEach(function(item, index){
+		if (getCell(index).innerText === '') {
+			complete = false;
+		}
+	});
+	return complete;
+}
+
+function checkLetter(element) {
+	let correctGuess = false;
+	let letter = element.innerHTML;
+	
+	getWordLetters().forEach(function(item, index){
 		if (item === letter) {
 			correctGuess = true;
 			changeLetter(index,letter)
 		}
 		element.className = element.className + " disabled";
 		element.disabled = true;
-		if (getCell(index).innerText === '') {
-			complete = false;
-		}
 	});
+
+	let complete = isComplete();
 
 	if (!correctGuess) {
 		attempts++;
@@ -124,16 +138,27 @@ function reveal() {
 }
 
 function celebrate() {
-	showInfo();
-	anime({
-	  targets: '.attempts .badge',
-	  scale: 1.5,
-	  translateX: 30,
-	  direction: 'alternate',
-	  delay: anime.stagger(50, {start: 500}),
-	});
-
+	if (!isComplete()) {
+		return false;
+	}
+	else {
+		showInfo();
+		// anime({
+		// 	targets: '.attempts .badge',
+		// 	scale: 1.5,
+		// 	translateX: 30,
+		// 	direction: 'alternate',
+		// 	delay: anime.stagger(50, {start: 500})
+		// }
+		// );
+		anime({
+			targets: '.trophy',
+			scale: 150,
+			delay: 1000,
+		});
+	}
 }
+
 
 function showInfo() {
 	document.getElementById('word-info').innerHTML = "<a target='_blank' href='http://tezaurs.lv/#/sv/"+document.querySelector('#word').value.toLowerCase() +"'>Uzzināt, kas ir " + document.querySelector('#word').value +"?</a>"

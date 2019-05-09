@@ -16,6 +16,10 @@
   background-color: white;
 }
 
+.attempts {
+  cursor: pointer;
+}
+
 .keyboard .btn {
   width: 10%;
   min-width: 2.5rem;
@@ -23,4 +27,12 @@
 }
 #new-word {
   width: auto;
+}
+
+.trophy {
+  font-size: 1px;
+}
+.trophy::after {
+  font-size: 1px;
+  content: '🏆'
 }

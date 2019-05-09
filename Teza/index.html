@@ -8,9 +8,9 @@
 		<meta http-equiv="Expires" content="0" />
     <!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" href="hang.css?4">
+		<link rel="stylesheet" href="hang.css?104">
 		<script src="anime.min.js?3.0.1"></script>
-		<script src="hang.js?4"></script>
+		<script src="hang.js?104"></script>
     <title>Pipargurķis | Vārdu minēšanas spēle</title>
   </head>
   <body>
@@ -19,10 +19,11 @@
 			<h1>Uzmini vārdu!</h1>
 			<div class="board" id="board">
 			</div>
+			<div id='trophy' class='trophy text-center'>&nbsp;</div>
 			<div class="row">
 				<p class='col' id="word-info"></p>
 			</div>
-			<div class="row attempts">
+			<div class="row attempts" onclick="celebrate()">
 				<div id='attempts' class="col">
 				</div>
 			</div>
@@ -30,6 +31,7 @@
 				<div id="keyboard" class="keyboard col">		
 				</div>
 			</div>
+		
 
 			<div id="footer-info" class="row mt-4">
 				<p class='col text-muted text-small'>Vārdu minēšanas spēle Pipargurķis. Ļoti līdzīga spēlei - Karātavas. Ar noteiktu mēģinājumu skaitu uzminiet vārdu. © 
