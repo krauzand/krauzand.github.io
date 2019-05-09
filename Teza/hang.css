@@ -1,0 +1,26 @@
+.board {
+  display: flex;
+  justify-content: flex-start;
+  margin: auto;
+  margin-bottom: 1rem;
+}
+
+.cell {
+  display: flex;
+  border: 1px solid;
+  align-content: center;
+  justify-content: center;
+  font-size: 10vw;
+  width: 15vw;
+  height: 15vw;
+  background-color: white;
+}
+
+.keyboard .btn {
+  width: 10%;
+  min-width: 2.5rem;
+  font-weight: bold;
+}
+#new-word {
+  width: auto;
+}
