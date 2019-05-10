@@ -37,7 +37,7 @@ function newWord() {
 			letters.forEach(function(letter, index){
 				keyboard.innerHTML += "<button class='btn btn-outline-secondary m-1' onclick='checkLetter(this)'>"+letter+"</button>"
 			});
-			keyboard.innerHTML += "<button id='new-word' class='btn btn-primary' onclick='newWord()'>Minēt citu vārdu</button>";
+			keyboard.innerHTML += "<button id='new-word' class='btn btn-primary' onclick='newWord()'>Citu vārdu</button>";
 
 			//init attempts
 			let attempts = document.getElementById('attempts');
@@ -48,6 +48,9 @@ function newWord() {
 
 			//init info
 			document.getElementById('word-info').innerHTML = '';
+
+			//reset trophy
+			document.getElementById('trophy').removeAttribute('style');
 
 			return json;
 		});
@@ -69,23 +72,37 @@ function changeLetter(index, letter) {
 	});
 }
 
-function checkLetter(element) {
-	let complete = true;
-	let correctGuess = false;
-	let letter = element.innerHTML;
+function getWordLetters() {
 	let word = document.querySelector('#word').value;
 	let wordLetters = word.split('');
-	wordLetters.forEach(function(item, index){
+	return wordLetters;
+}
+
+function isComplete(){
+	
+	let complete = true;
+	getWordLetters().forEach(function(item, index){
+		if (getCell(index).innerText === '') {
+			complete = false;
+		}
+	});
+	return complete;
+}
+
+function checkLetter(element) {
+	let correctGuess = false;
+	let letter = element.innerHTML;
+	
+	getWordLetters().forEach(function(item, index){
 		if (item === letter) {
 			correctGuess = true;
 			changeLetter(index,letter)
 		}
 		element.className = element.className + " disabled";
 		element.disabled = true;
-		if (getCell(index).innerText === '') {
-			complete = false;
-		}
 	});
+
+	let complete = isComplete();
 
 	if (!correctGuess) {
 		attempts++;
@@ -119,21 +136,34 @@ function reveal() {
 	  targets: '.attempts .badge',
 	  translateY: document.getElementById('footer-info').getBoundingClientRect().top,
 	  delay: anime.stagger(200),
-	  //direction: 'alternate'
 	});	
 }
 
 function celebrate() {
-	showInfo();
-	anime({
-	  targets: '.attempts .badge',
-	  scale: 1.5,
-	  translateX: 30,
-	  direction: 'alternate',
-	  delay: anime.stagger(50, {start: 500}),
-	});
-
+	if (!isComplete()) {
+		return false;
+	}
+	else {
+		// anime({
+		// 	targets: '.attempts .badge',
+		// 	scale: 1.5,
+		// 	translateX: 30,
+		// 	direction: 'alternate',
+		// 	delay: anime.stagger(50, {start: 500})
+		// }
+		// );
+		anime({
+			targets: '.trophy',
+			fontSize: [0, 100],
+			rotate: 360,
+			delay: 200,
+			duration: 2000,
+			complete: function() { showInfo()	}
+		});
+		
+	}
 }
+
 
 function showInfo() {
 	document.getElementById('word-info').innerHTML = "<a target='_blank' href='http://tezaurs.lv/#/sv/"+document.querySelector('#word').value.toLowerCase() +"'>Uzzināt, kas ir " + document.querySelector('#word').value +"?</a>"
