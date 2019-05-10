@@ -32,7 +32,3 @@
 .trophy {
   font-size: 1px;
 }
-.trophy::after {
-  font-size: 1px;
-  content: '🏆'
-}

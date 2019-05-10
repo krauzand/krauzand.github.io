@@ -37,7 +37,7 @@ function newWord() {
 			letters.forEach(function(letter, index){
 				keyboard.innerHTML += "<button class='btn btn-outline-secondary m-1' onclick='checkLetter(this)'>"+letter+"</button>"
 			});
-			keyboard.innerHTML += "<button id='new-word' class='btn btn-primary' onclick='newWord()'>Minēt citu vārdu</button>";
+			keyboard.innerHTML += "<button id='new-word' class='btn btn-primary' onclick='newWord()'>Citu vārdu</button>";
 
 			//init attempts
 			let attempts = document.getElementById('attempts');
@@ -48,6 +48,9 @@ function newWord() {
 
 			//init info
 			document.getElementById('word-info').innerHTML = '';
+
+			//reset trophy
+			document.getElementById('trophy').removeAttribute('style');
 
 			return json;
 		});
@@ -133,7 +136,6 @@ function reveal() {
 	  targets: '.attempts .badge',
 	  translateY: document.getElementById('footer-info').getBoundingClientRect().top,
 	  delay: anime.stagger(200),
-	  //direction: 'alternate'
 	});	
 }
 
@@ -142,7 +144,6 @@ function celebrate() {
 		return false;
 	}
 	else {
-		showInfo();
 		// anime({
 		// 	targets: '.attempts .badge',
 		// 	scale: 1.5,
@@ -153,9 +154,13 @@ function celebrate() {
 		// );
 		anime({
 			targets: '.trophy',
-			scale: 150,
-			delay: 1000,
+			fontSize: [0, 100],
+			rotate: 360,
+			delay: 200,
+			duration: 2000,
+			complete: function() { showInfo()	}
 		});
+		
 	}
 }
 
