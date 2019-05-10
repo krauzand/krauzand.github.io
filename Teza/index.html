@@ -8,9 +8,9 @@
 		<meta http-equiv="Expires" content="0" />
     <!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" href="hang.css?106">
+		<link rel="stylesheet" href="hang.css?1007">
 		<script src="anime.min.js?3.0.1"></script>
-		<script src="hang.js?106"></script>
+		<script src="hang.js?1008"></script>
     <title>Pipargurķis | Vārdu minēšanas spēle</title>
   </head>
   <body>
@@ -19,7 +19,7 @@
 			<h1>Uzmini vārdu!</h1>
 			<div class="board justify-content-center" id="board">
 			</div>
-			<div id='trophy' class='row trophy justify-content-center'>&nbsp;🏆&nbsp;</div>
+			<div id='trophy' class='row trophy justify-content-center' hidden><img src="trophy.svg"/></div>
 			<div class="row">
 				<p class='col' id="word-info"></p>
 			</div>
@@ -34,13 +34,15 @@
 		
 
 			<div id="footer-info" class="row mt-4">
-				<p class='col text-muted text-small'>Vārdu minēšanas spēle Pipargurķis. Ļoti līdzīga spēlei - Karātavas. Ar noteiktu mēģinājumu skaitu uzminiet vārdu. © 
+				<div class='col'>
+				<small class='text-muted text-small'>Vārdu minēšanas spēle Pipargurķis. Ļoti līdzīga spēlei - Karātavas. Ar noteiktu mēģinājumu skaitu uzminiet vārdu. © 
 						<script type="text/javascript">
 							var d = new Date()
 							document.write(d.getFullYear())
 						</script>
-					Andris Krauze, Madara Krauze (izdomāja nosaukumu).</p>
-
+					Andris Krauze, Madara Krauze (izdomāja nosaukumu).</small>
+					<small class='text-muted text-small'>Trophy icon made by <a href="https://www.flaticon.com/authors/vectors-market" title="Vectors Market">Vectors Market</a> from <a href="https://www.flaticon.com/" 			    title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" 			    title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></small>
+				</div>
 			</div>
 
 		</div>

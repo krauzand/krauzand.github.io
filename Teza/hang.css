@@ -32,3 +32,8 @@
 .trophy {
   font-size: 1px;
 }
+
+.trophy img {
+  max-width: 200px;
+  max-height: 200px;
+}

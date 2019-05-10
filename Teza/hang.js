@@ -51,6 +51,7 @@ function newWord() {
 
 			//reset trophy
 			document.getElementById('trophy').removeAttribute('style');
+			document.getElementById('trophy').hidden = true;
 
 			return json;
 		});
@@ -152,15 +153,17 @@ function celebrate() {
 		// 	delay: anime.stagger(50, {start: 500})
 		// }
 		// );
+		
 		anime({
 			targets: '.trophy',
-			fontSize: [0, 100],
+			scale: [0, 1],
 			rotate: 360,
 			delay: 200,
 			duration: 2000,
+			begin: function() { document.getElementById('trophy').removeAttribute('hidden'); },
 			complete: function() { showInfo()	}
 		});
-		
+
 	}
 }
 
