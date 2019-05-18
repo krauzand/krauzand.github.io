@@ -140,36 +140,47 @@ function reveal() {
 	});	
 }
 
+function celebrateReverse() {
+	reverseAnimateTrophy();
+}
+
+function reverseAnimateTrophy() {
+	//reverse trophy
+	anime({
+		targets: '.trophy',
+		scale: [0, 1],
+		rotate: 720,
+		duration: 1000,
+		direction: 'reverse',
+		complete: function() {newWord() }
+		}
+	);
+}
+
+function animateTrophy() {
+	anime({
+		targets: '.trophy',
+		scale: [0, 1],
+		rotate: 360,
+		delay: 200,
+		duration: 2000,
+		begin: function() { document.getElementById('trophy').removeAttribute('hidden'); },
+		complete: function() { showInfo() }
+	});
+}
+
 function celebrate() {
 	if (!isComplete()) {
 		return false;
 	}
 	else {
-		// anime({
-		// 	targets: '.attempts .badge',
-		// 	scale: 1.5,
-		// 	translateX: 30,
-		// 	direction: 'alternate',
-		// 	delay: anime.stagger(50, {start: 500})
-		// }
-		// );
-		
-		anime({
-			targets: '.trophy',
-			scale: [0, 1],
-			rotate: 360,
-			delay: 200,
-			duration: 2000,
-			begin: function() { document.getElementById('trophy').removeAttribute('hidden'); },
-			complete: function() { showInfo()	}
-		});
-
+		animateTrophy();
 	}
 }
 
 
 function showInfo() {
-	document.getElementById('word-info').innerHTML = "<a target='_blank' href='http://tezaurs.lv/#/sv/"+document.querySelector('#word').value.toLowerCase() +"'>Uzzināt, kas ir " + document.querySelector('#word').value +"?</a>"
+	document.getElementById('word-info').innerHTML = "<a target='_blank' href='http://tezaurs.lv/#/sv/"+document.querySelector('#word').value.toLowerCase() +"'>Kas ir " + document.querySelector('#word').value +"?</a>"
 }
 
 newWord();

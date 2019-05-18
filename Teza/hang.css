@@ -16,7 +16,7 @@
   background-color: white;
 }
 
-.attempts {
+.attempts, .trophy {
   cursor: pointer;
 }
 
