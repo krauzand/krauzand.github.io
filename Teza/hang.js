@@ -26,8 +26,12 @@ function newWord() {
 
 			//init board
 			board.innerHTML = '';
+			let animated = '';
 			for (let index = 0; index < wordLen; index++) {
-				board.innerHTML += "<div id='c"+(index+1)+"' class='cell'></div>";
+				if ((index+1) == wordLen) {
+					animated = 'animated'
+				}
+				board.innerHTML += "<div id='c"+(index+1)+"' class='cell "+animated+"'></div>";
 			}
 
 			//init keyboard
@@ -112,6 +116,20 @@ function checkLetter(element) {
 		if (attempts <= maxAttempts) {
 			document.getElementById('attempt-' + attempts).className = 'badge badge-pill badge-danger m-1';
 		}
+
+		let random_left = 10+15*getRandomInt(1,3)+getRandomInt(-10,10);
+		let h = document.getElementById('board').offsetHeight;
+		anime({
+			targets: '.goat',
+			left: random_left+'%',
+			top: ['-15vw', '-2vw'],
+			duration: 700,
+			direction: 'alternate',
+			begin: function() { document.getElementById('goat').removeAttribute('hidden');},
+			complete: function() { document.getElementById('goat').setAttribute('hidden', true);},
+		});
+	
+			
 	}
 
 	if (!complete && attempts >= maxAttempts) {
