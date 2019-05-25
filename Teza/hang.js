@@ -122,7 +122,8 @@ function checkLetter(element) {
 		anime({
 			targets: '.goat',
 			left: random_left+'%',
-			top: ['-15vw', '-2vw'],
+			//top: ['-15vw', '-2vw'],
+			top: ['8vw', '18vw'],
 			duration: 700,
 			direction: 'alternate',
 			begin: function() { document.getElementById('goat').removeAttribute('hidden');},

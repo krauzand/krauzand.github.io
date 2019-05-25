@@ -17,14 +17,16 @@
   	<input type="hidden" id="word">
 		<div class="container">
 			<h1>Uzmini vārdu!</h1>
-			<div class="board justify-content-center" id="board">
+			<div class='row'>
+				<div class="board justify-content-center" id="board">
+				</div>
+				<div id='goat' class='goat d-none d-xs-none d-sm-none d-md-block' hidden></div>
 			</div>
-			<div id='goat' class='goat' hidden></div>
 			<div id='trophy' class='row trophy justify-content-center' hidden onclick="celebrateReverse()"><img src="trophy.svg"/></div>
 			<div class="row">
 				<p class='col' id="word-info"></p>
 			</div>
-			<div class="row attempts" onclick="celebrate()">
+			<div class="row attempts">
 				<div id='attempts' class="col">
 				</div>
 			</div>
