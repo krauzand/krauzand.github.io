@@ -116,7 +116,11 @@ function checkLetter(element) {
 		if (attempts <= maxAttempts) {
 			document.getElementById('attempt-' + attempts).className = 'badge badge-pill badge-danger m-1';
 		}
-
+		let goats = ['a', 'b', 'c', 'goat', 'k', 'l', 's', 't', 'z'];
+		let random_goat = getRandomInt(0,goats.length-1);
+		let goat = goats[random_goat]+'.svg';
+		let goat_image = 'url("assets/'+goat+'")';
+		document.getElementById('goat').style.backgroundImage = goat_image;
 		let random_left = 10+15*getRandomInt(1,3)+getRandomInt(-10,10);
 		let h = document.getElementById('board').offsetHeight;
 		anime({

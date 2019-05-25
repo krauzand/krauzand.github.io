@@ -17,7 +17,7 @@
 }
 
 .goat {
-    background-image: url(assets/goat.svg);
+    /* background-image: url(assets/goat.svg); */
     background-repeat: no-repeat;
     width: 11vw;
     height: 11vw;
