@@ -1,4 +1,4 @@
-let maxAttempts = 11;
+let maxAttempts = 12;
 let attempts = 0;
 
 
@@ -47,7 +47,8 @@ function newWord() {
 			let attempts = document.getElementById('attempts');
 			attempts.innerHTML = '';
 			for (let index = 0; index < maxAttempts; index++) {
-				attempts.innerHTML += "<span id='attempt-"+(index+1)+"' class='badge badge-pill badge-success m-1'>&nbsp;</span>";
+				attempts.innerHTML += 
+				"<span id='attempt-"+(index+1)+"' class='badge badge-pill mr-1 badge-success'>"+(index+1)+"</span>";
 			}
 
 			//init info
@@ -97,7 +98,7 @@ function isComplete(){
 function checkLetter(element) {
 	let correctGuess = false;
 	let letter = element.innerHTML;
-	
+
 	if (isComplete()) {
 		return false;
 	}
@@ -117,7 +118,7 @@ function checkLetter(element) {
 		element.className = element.className.replace('btn-outline-secondary', 'btn-outline-danger');
 
 		if (attempts <= maxAttempts) {
-			document.getElementById('attempt-' + attempts).className = 'badge badge-pill badge-danger m-1';
+			document.getElementById('attempt-' + attempts).className = 'badge badge-pill mr-1 badge-danger';
 		}
 		let goats = ['a', 'b', 'c', 'goat', 'k', 'l', 's', 't', 'z'];
 		let random_goat = getRandomInt(0,goats.length-1);
@@ -126,17 +127,20 @@ function checkLetter(element) {
 		document.getElementById('goat').style.backgroundImage = goat_image;
 		let random_left = 10+15*getRandomInt(1,3)+getRandomInt(-10,10);
 		let h = document.getElementById('board').offsetHeight;
-		anime({
-			targets: '.goat',
-			left: random_left+'%',
-			//top: ['-15vw', '-2vw'],
-			top: ['8vw', '18vw'],
-			duration: 700,
-			direction: 'alternate',
-			begin: function() { document.getElementById('goat').removeAttribute('hidden');},
-			complete: function() { document.getElementById('goat').setAttribute('hidden', true);},
-		});
-	
+
+		if (true) { //if (getRandomInt(1,3) < 3) {
+			anime({
+				targets: '.goat',
+				left: random_left+'%',
+				//top: ['-15vw', '-2vw'],
+				top: ['8vw', (18+getRandomInt(-1,1))+'vw'],
+				rotate: getRandomInt(135,225)+'deg',
+				duration: 800+getRandomInt(0,1)*50,
+				direction: 'alternate',
+				begin: function() { document.getElementById('goat').removeAttribute('hidden');},
+				complete: function() { document.getElementById('goat').setAttribute('hidden', true);},
+			});
+		}
 			
 	}
 
