@@ -98,6 +98,9 @@ function checkLetter(element) {
 	let correctGuess = false;
 	let letter = element.innerHTML;
 	
+	if (isComplete()) {
+		return false;
+	}
 	getWordLetters().forEach(function(item, index){
 		if (item === letter) {
 			correctGuess = true;
