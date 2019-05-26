@@ -120,6 +120,12 @@ function checkLetter(element) {
 		if (attempts <= maxAttempts) {
 			document.getElementById('attempt-' + attempts).className = 'badge badge-pill mr-1 badge-danger';
 		}
+
+		if (!complete && attempts >= maxAttempts) {
+			reveal();
+			return false;
+		}
+
 		let goats = ['a', 'b', 'c', 'goat', 'k', 'l', 's', 't', 'z'];
 		let random_goat = getRandomInt(0,goats.length-1);
 		let goat = goats[random_goat]+'.svg';
@@ -144,9 +150,7 @@ function checkLetter(element) {
 			
 	}
 
-	if (!complete && attempts >= maxAttempts) {
-		reveal()
-	}
+	
 
 	if (complete) {
 		celebrate();
