@@ -10,7 +10,7 @@ function getRandomInt(min, max) {
 
 function newWord() {
 	attempts = 0;
-	fetch("nouns-10.json")
+	fetch("nouns-10-1.json")
 		.then(response => response.json())
 		.then(function (json) {
 
@@ -38,7 +38,7 @@ function newWord() {
 			let letters = ['A', 'Ā', 'B', 'C', 'Č', 'D', 'E', 'Ē', 'F', 'G', 'Ģ', 'H', 'I', 'Ī', 'J', 'K', 'Ķ', 'L', 'Ļ', 'M', 'N', 'Ņ', 'O', 'P', 'R', 'S', 'Š', 'T', 'U', 'Ū', 'V', 'Z', 'Ž'];
 			let keyboard = document.getElementById('keyboard');
 			keyboard.innerHTML = "";
-			letters.forEach(function(letter, index){
+			letters.forEach(function(letter){
 				keyboard.innerHTML += "<button class='btn btn-outline-secondary m-1' onclick='checkLetter(this)'>"+letter+"</button>"
 			});
 			keyboard.innerHTML += "<button id='new-word' class='btn btn-primary' onclick='newWord()'>Citu vārdu</button>";
@@ -80,8 +80,7 @@ function changeLetter(index, letter) {
 
 function getWordLetters() {
 	let word = document.querySelector('#word').value;
-	let wordLetters = word.split('');
-	return wordLetters;
+	return word.split('');
 }
 
 function isComplete(){
