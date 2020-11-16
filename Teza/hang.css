@@ -16,7 +16,20 @@
   background-color: white;
 }
 
-.attempts {
+.goat {
+    /* background-image: url(assets/goat.svg); */
+    background-repeat: no-repeat;
+    width: 11vw;
+    height: 11vw;
+    position: absolute;
+    top: -18vw;
+    left: 50%;
+    transform: rotate(180deg);
+    z-index: -1;
+}
+
+
+.attempts, .trophy {
   cursor: pointer;
 }
 
