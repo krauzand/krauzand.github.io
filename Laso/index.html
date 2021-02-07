@@ -8,12 +8,10 @@
 		<meta http-equiv="Expires" content="0" />
     	<!-- Bootstrap CSS -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" href="laso.css?10000">
-		<script src="laso.js?10000"></script>
+		<link rel="stylesheet" href="laso.css?10001">
     <title>Laso | Lasītmācīšanās spēle</title>
   </head>
   <body>
-	<input type="hidden" id="word">
 	<div class="container-fluid">
 		<h1>Saliec vārdu!</h1>
 
@@ -21,11 +19,14 @@
 			<div class="image" id="word-image">
 
 			</div>
-			<div class="anagram h2" id="anagram">
+			<div class="word" id="word">
+
+			</div>
+			<div class="anagram" id="anagram">
 
 			</div>
 			<div class="new-word">
-				<button class="btn btn-outline-primary" onclick="laso.getRandomWord()">Citu vārdu</button>
+				<button class="btn m-1 btn-outline-secondary" onclick="laso.getRandomWord()">Citu vārdu</button>
 			</div>
 		</div>
 
@@ -37,5 +38,6 @@
 		</div>
 
 	</div>
+  	<script src="laso.js?10001"></script>
   </body>
 </html>
