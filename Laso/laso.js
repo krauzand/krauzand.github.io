@@ -6,6 +6,7 @@ function Laso(dictionary) {
     this.wordElement = document.getElementById('word');
 
     this.words = null;
+    this.wordArray = [];
 
     this.getRandomWord = function() {
         if (!this.words) {
@@ -54,12 +55,13 @@ function Laso(dictionary) {
 
             anagram.innerHTML = null;
             this.wordElement.innerHTML = null;
-            this.wordElement.dataset.word = '';
+            this.wordArray = [];
 
             let i = 0;
             for (let letter of anagramText) {
-                this.wordElement.innerHTML += `<button class="btn m-1 btn-outline-primary" id="w-${i}" onclick="laso.putLetterBack(this)">&nbsp;</button>`;
-                anagram.innerHTML += `<button class="btn m-1 btn-outline-primary" id="a-${i}" onclick="laso.putLetter(this)">${letter}</button>`;
+                this.wordElement.innerHTML += `<button class="btn m-1 btn-outline-primary" data-index="${i}" id="w-${i}" onclick="laso.putLetterBack(this)">&nbsp;</button>`;
+                anagram.innerHTML += `<button class="btn m-1 btn-outline-primary" id="a-${i}" data-index="${i}" onclick="laso.putLetter(this)">${letter}</button>`;
+                this.wordArray.push('\u00a0');
                 i++;
             }
         }
@@ -68,9 +70,10 @@ function Laso(dictionary) {
 
     this.putLetter = function(element) {
         let letter = element.innerText;
-        this.wordElement.dataset.word += letter;
+        let firstEmptyPlace = this.wordArray.findIndex( e => e === '\u00a0');
+        this.wordArray[firstEmptyPlace] = letter;
 
-        let letterElement = document.getElementById('w-'+(this.wordElement.dataset.word.length-1));
+        let letterElement = document.getElementById('w-'+firstEmptyPlace);
         letterElement.textContent = letter;
         letterElement.dataset.target = element.id;
         element.classList.add('invisible');
@@ -79,7 +82,7 @@ function Laso(dictionary) {
 
     this.putLetterBack = function(element) {
         element.textContent = '\u00a0'; //no brake space &nbsp;
-        //this.wordElement.dataset.word += letter;
+        this.wordArray[element.dataset.index] = '\u00a0';
         let anagramElement = document.getElementById(element.dataset.target);
         anagramElement.classList.remove('invisible');
 
