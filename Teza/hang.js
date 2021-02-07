@@ -22,7 +22,7 @@ function newWord() {
 
 			document.getElementById('word').value = word;
 			let board = document.querySelector('#board');
-			board.removeAttribute('hidden');
+			board.removeAttribute('hidden');//todo: smooth transition new word
 
 			//init board
 			board.innerHTML = '';
@@ -129,31 +129,8 @@ function checkLetter(element) {
 			rotate: '180deg',
 			duration: 2000,
 		});
-		
-		// let goats = ['a', 'b', 'c', 'goat', 'k', 'l', 's', 't', 'z'];
-		// let random_goat = getRandomInt(0,goats.length-1);
-		// let goat = goats[random_goat]+'.svg';
-		// let goat_image = 'url("assets/'+goat+'")';
-		// document.getElementById('goat').style.backgroundImage = goat_image;
-		// let random_left = 10+15*getRandomInt(1,3)+getRandomInt(-10,10);
-		// let h = document.getElementById('board').offsetHeight;
-
-		// if (true) { //if (getRandomInt(1,3) < 3) {
-		// 	anime({
-		// 		targets: '.goat',
-		// 		left: random_left+'%',
-		// 		//top: ['-15vw', '-2vw'],
-		// 		top: ['8vw', (18+getRandomInt(-1,1))+'vw'],
-		// 		rotate: getRandomInt(135,225)+'deg',
-		// 		duration: 800+getRandomInt(0,1)*50,
-		// 		direction: 'alternate',
-		// 		begin: function() { document.getElementById('goat').removeAttribute('hidden');},
-		// 		complete: function() { document.getElementById('goat').setAttribute('hidden', true);},
-		// 	});
-		// }
 			
 	}
-
 	
 
 	if (complete) {

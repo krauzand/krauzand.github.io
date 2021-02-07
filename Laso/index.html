@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+		<meta http-equiv="Pragma" content="no-cache" />
+		<meta http-equiv="Expires" content="0" />
+    	<!-- Bootstrap CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<link rel="stylesheet" href="laso.css?10000">
+		<script src="laso.js?10000"></script>
+    <title>Laso | Lasītmācīšanās spēle</title>
+  </head>
+  <body>
+	<input type="hidden" id="word">
+	<div class="container-fluid">
+		<h1>Saliec vārdu!</h1>
+
+		<div class="word-container">
+			<div class="image" id="word-image">
+
+			</div>
+			<div class="anagram h2" id="anagram">
+
+			</div>
+			<div class="new-word">
+				<button class="btn btn-outline-primary" onclick="laso.getRandomWord()">Citu vārdu</button>
+			</div>
+		</div>
+
+		<div id="footer-info" class="row mt-4">
+			<div class='col'>
+				<small class='text-muted text-small'>Lasīt mācīšanās spēle Laso, autors Andris Krauze.</small>
+				<small class='text-muted text-small'>Bildītes aizņēmos no <a href="https://maciunmacies.valoda.lv/">Latviešu valodas aģentūras</a></small>
+			</div>
+		</div>
+
+	</div>
+  </body>
+</html>
