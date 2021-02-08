@@ -1,43 +1,54 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-		<meta http-equiv="Pragma" content="no-cache" />
-		<meta http-equiv="Expires" content="0" />
-    	<!-- Bootstrap CSS -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-		<link rel="stylesheet" href="laso.css?10001">
-    <title>Laso | Lasītmācīšanās spēle</title>
-  </head>
-  <body>
-	<div class="container-fluid">
-		<h1>Saliec vārdu!</h1>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+	<meta http-equiv="Pragma" content="no-cache" />
+	<meta http-equiv="Expires" content="0" />
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link rel="stylesheet" href="laso.css?10002">
+	<title>Laso | Lasītmācīšanās spēle</title>
+</head>
+<body>
+<div class="container-fluid">
 
-		<div class="word-container">
-			<div class="image" id="word-image">
+	<div class="row">
+		<div class="col text-center">
+			<h1>Saliec vārdu!</h1>
+			<div class="word-container">
+				<div class="image ml-auto mr-auto" id="word-image">
 
-			</div>
-			<div class="word" id="word">
+				</div>
+				<div class="row justify-content-center">
+					<div class="col-12 col-xl-6 col-lg-8 col-md-10">
+						<div class="word" id="word">
 
-			</div>
-			<div class="anagram" id="anagram">
+						</div>
+						<div class="anagram mt-4 mb-4" id="anagram">
 
-			</div>
-			<div class="new-word">
-				<button class="btn m-1 btn-outline-secondary" onclick="laso.getRandomWord()">Citu vārdu</button>
+						</div>
+					</div>
+				</div>
+				<div class="new-word">
+					<button class="btn m-1 btn-outline-secondary" onclick="laso.getRandomWord()">Citu vārdu</button>
+				</div>
 			</div>
 		</div>
-
-		<div id="footer-info" class="row mt-4">
-			<div class='col'>
-				<small class='text-muted text-small'>Lasīt mācīšanās spēle Laso, autors Andris Krauze.</small>
-				<small class='text-muted text-small'>Bildītes aizņēmos no <a href="https://maciunmacies.valoda.lv/">Latviešu valodas aģentūras</a></small>
-			</div>
-		</div>
-
 	</div>
-  	<script src="laso.js?10001"></script>
-  </body>
+
+	<div id="footer-info" >
+		<div class="row mt-4">
+			<div class="col text-center">
+				<small class="text-muted text-small">Lasīt mācīšanās spēle Laso. Autors <a href="https://github.com/krauzand">Andris</a>, idejas autors Ilze.</small>
+				<small class="text-muted text-small">Bildītes palienētas no <a href="https://maciunmacies.valoda.lv/">Latviešu valodas aģentūras</a></small>
+			</div>
+		</div>
+	</div>
+
+</div>
+<script src="laso.js?10002"></script>
+<script src="anime.min.js?3.2.1"></script>
+</body>
 </html>
