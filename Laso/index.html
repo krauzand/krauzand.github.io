@@ -8,7 +8,7 @@
 	<meta http-equiv="Expires" content="0" />
 	<!-- Bootstrap CSS -->
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-	<link rel="stylesheet" href="laso.css?10003">
+	<link rel="stylesheet" href="laso.css?10004">
 	<title>Laso | Lasītmācīšanās spēle</title>
 	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?2">
 	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?2">
@@ -20,7 +20,7 @@
 <body>
 <div class="container-fluid">
 
-	<div class="row">
+	<div class="row mt-2">
 		<div class="col text-center">
 			<h1>Saliec vārdu!</h1>
 			<div class="word-container">
@@ -39,6 +39,12 @@
 				</div>
 				<div class="new-word">
 					<button class="btn m-1 btn-outline-secondary" onclick="laso.getRandomWord()">Citu vārdu</button>
+					<div class="form-check mt-4" onchange="laso.toggleLowerCase()">
+						<input class="form-check-input" type="checkbox" value="" id="lowercase">
+						<label class="form-check-label" for="lowercase">
+							Mācīties mazos burtus
+						</label>
+					</div>
 				</div>
 			</div>
 		</div>

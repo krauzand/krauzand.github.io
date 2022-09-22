@@ -6,9 +6,11 @@ function Laso(dictionary) {
     this.wordElement = document.getElementById('word');
     this.imageElement = document.getElementById('word-image');
     this.anagramElement = document.getElementById('anagram');
+    this.lowercase = false;
 
     this.words = null;
     this.wordArray = [];
+    this.currentWord = null;
 
     this.getRandomWord = function() {
         if (!this.words) {
@@ -22,6 +24,7 @@ function Laso(dictionary) {
                 word = null;
                 this.getRandomWord();
             }
+            this.currentWord = word;
             self.drawWord(word);
         }
     };
@@ -44,6 +47,11 @@ function Laso(dictionary) {
     this.drawWord = function (word) {
         if (word) {
             let wordText = word.word.toUpperCase();
+
+            if (this.lowercase) {
+                wordText = wordText.toLowerCase();
+            }
+
             let wordImage = this.imagesPath + word.path;
             let anagramText = self.makeAnagram(wordText);
 
@@ -148,6 +156,11 @@ function Laso(dictionary) {
             direction: 'alternate',
             delay: 10,
         });
+    };
+
+    this.toggleLowerCase = function () {
+        self.lowercase = document.getElementById('lowercase').checked;
+        self.drawWord(self.currentWord);
     };
 
 }
