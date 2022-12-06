@@ -338,7 +338,7 @@
     {
         "id": 49,
         "question": "Kas ir dzi\u013c\u0101k\u0101 vieta uz Zemes?",
-        "answer": "Mariannas dzi\u013cvaga (aptuveni 11km dzi\u013ca)",
+        "answer": "Mariannas dzi\u013cvaga (aptuveni 11 km dzi\u013ca)",
         "difficulty": "hard",
         "fun_fact": null
     },
@@ -817,5 +817,40 @@
         "answer": "Sp\u0101nis",
         "difficulty": "hard",
         "fun_fact": null
+    },
+    {
+        "id": 118,
+        "question": "Cik centu ir vien\u0101 eiro?",
+        "answer": "Simts",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 119,
+        "question": "Kad ir L\u0101\u010dpl\u0113\u0161a diena?",
+        "answer": "11. novembr\u012b",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 120,
+        "question": "Kas rot\u0101 Latvijas eiro mon\u0113tas aizmuguri (reversu)?",
+        "answer": "Tautu meitas att\u0113ls",
+        "difficulty": "easy",
+        "fun_fact": "Vis\u0101m eiro mont\u0113t\u0101m ir vien\u0101da priek\u0161puse (averss), ta\u010du katra valsts var\u0113ja izv\u0113l\u0113ties savu aizmugres dizainu."
+    },
+    {
+        "id": 121,
+        "question": "Kur\u0161 ir dzi\u013c\u0101kais Latvijas ezers?",
+        "answer": "Dr\u012bdzis - dzi\u013cums 66.2 metri",
+        "difficulty": "hard",
+        "fun_fact": "Dr\u012bdzis ir ar\u012b dzi\u013c\u0101kais ezers vis\u0101 Baltij\u0101"
+    },
+    {
+        "id": 122,
+        "question": "Nosauc Baltijas valstis!",
+        "answer": "Latvija, Lietuva, Igaunija",
+        "difficulty": "easy",
+        "fun_fact": ""
     }
 ]
