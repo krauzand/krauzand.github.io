@@ -1,0 +1,29 @@
+.question {
+	border-radius: 12px;
+}
+
+.question::before, .question::after {
+	content: '';
+	position: absolute;
+	display: block;
+	height: 0;
+	width: 0;
+}
+
+.question::before {
+	border: 15px solid transparent;
+	border-top: 45px solid rgba(0,0,0,.125);
+	bottom: -60px;
+	left: 40px;
+}
+
+.question::after {
+	border: 15px solid transparent;
+	border-top: 40px solid #fff;
+	bottom: -53px;
+	left: 40px;
+}
+
+.answer:first-letter {
+	text-transform: uppercase;
+}
