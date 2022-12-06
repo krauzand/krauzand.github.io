@@ -746,7 +746,7 @@
         "question": "Kura ir gar\u0101k\u0101 Latvijas upe?",
         "answer": "Gauja - t\u0101s garums Latvijas teritorij\u0101 ir 452 km",
         "difficulty": "hard",
-        "fun_fact": "Daugavas kopgarums 1005 km, ta\u010du Latvij\u0101 tikai 352km"
+        "fun_fact": "Daugavas kopgarums 1005 km, ta\u010du Latvij\u0101 tikai 352 km"
     },
     {
         "id": 108,
@@ -851,6 +851,62 @@
         "question": "Nosauc Baltijas valstis!",
         "answer": "Latvija, Lietuva, Igaunija",
         "difficulty": "easy",
-        "fun_fact": ""
+        "fun_fact": null
+    },
+    {
+        "id": 123,
+        "question": "K\u0101 sauc taisnlen\u0137a tr\u012bsst\u016bra gar\u0101ko malu?",
+        "answer": "Hipoten\u016bza",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 124,
+        "question": "K\u0101 sauc personu, kur\u0161 sacer m\u016bzikas ska\u0146darbus?",
+        "answer": "Komponists",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 125,
+        "question": "K\u0101 sauc sal\u012bdzino\u0161i lielu instrumentu sp\u0113l\u0113t\u0101ju ansambli?",
+        "answer": "Or\u0137estris",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 126,
+        "question": "K\u0101 sauc rakst\u012bto tekstu, kas ir operas pamat\u0101?",
+        "answer": "Librets",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 127,
+        "question": "Ko m\u016bzikas pierakst\u0101 noz\u012bm\u0113 sa\u012bsin\u0101jums \"f\"?",
+        "answer": "Forte - ska\u013ci, sp\u0113c\u012bgi",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 128,
+        "question": "K\u0101 sauc \u0160reka sievu no anim\u0101cijas filmas \"\u0160reks\"?",
+        "answer": "Fiona",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 129,
+        "question": "Kur\u0161 ir pirmais burts grie\u0137u alfab\u0113t\u0101?",
+        "answer": "Alfa - \u0391, \u03b1",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 130,
+        "question": "Ko d\u0113j vistas?",
+        "answer": "Olas",
+        "difficulty": "easy",
+        "fun_fact": null
     }
 ]
