@@ -1,0 +1,821 @@
+[
+    {
+        "id": 1,
+        "question": "Cik kr\u0101su ir varav\u012bksn\u0113?",
+        "answer": "Septi\u0146as",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 2,
+        "question": "Kur\u0161 bija pirmais Latvijas republikas prezidents?",
+        "answer": "J\u0101nis \u010cakste",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 3,
+        "question": "Kur\u0101 pils\u0113t\u0101 atrodas Eife\u013ca tornis?",
+        "answer": "Par\u012bz\u0113",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 4,
+        "question": "Kur\u0161 uzgleznoja Monu Lizu?",
+        "answer": "Leonardo da Vin\u010di",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 5,
+        "question": "K\u0101 sauc c\u016bci\u0146as Peppas br\u0101li?",
+        "answer": "D\u017eord\u017es",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 6,
+        "question": "Kur\u0161 ir Toms no multiplik\u0101cijas filmas Toms un D\u017eerijs? Ka\u0137is vai pele?",
+        "answer": "Ka\u0137is",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 7,
+        "question": "Ko m\u0113ra ar termometru?",
+        "answer": "temperat\u016bru",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 8,
+        "question": "Kur\u0161 dz\u012bvo Dz\u012bv\u017eogu iel\u0101 4?",
+        "answer": "Harijs Poters",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 9,
+        "question": "Cik rite\u0146u ir kvadraciklam?",
+        "answer": "\u010cetri",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 10,
+        "question": "K\u0101 sauc ka\u0137i no multiplik\u0101cijas filmu cikla \"Fantadroms\"?",
+        "answer": "Indri\u0137is Tr\u012bspadsmitais",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 11,
+        "question": "Kura ir liel\u0101k\u0101 plan\u0113ta Saules sist\u0113m\u0101?",
+        "answer": "Jupiters",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 12,
+        "question": "Cik zobu ir pieaugu\u0161am cilv\u0113kam?",
+        "answer": "Tr\u012bsdesmit divi",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 13,
+        "question": "Kura ir maz\u0101k\u0101 valsts pasaul\u0113?",
+        "answer": "Vatik\u0101ns",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 14,
+        "question": "Nosauciet tr\u012bs pamatkr\u0101sas?",
+        "answer": "Zils, sarkans, dzeltens",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 15,
+        "question": "Kur\u0101 datum\u0101 ir L\u012bgai v\u0101rdadiena?",
+        "answer": "23. j\u016bnij\u0101",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 16,
+        "question": "K\u0101d\u0101 kr\u0101s\u0101 ir Latvijas karogs?",
+        "answer": "Sarkanbaltsarkans",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 17,
+        "question": "Cik centimetru ir vien\u0101 metr\u0101?",
+        "answer": "Simts",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 18,
+        "question": "Kur\u0161 ir liel\u0101kais putns pasaul\u0113?",
+        "answer": "Strauss",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 19,
+        "question": "Kas att\u0113lots Balo\u017eu \u0123erbon\u012b?",
+        "answer": "Varde",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 20,
+        "question": "Kas att\u0113lots Sabiles \u0123erbon\u012b?",
+        "answer": "V\u012bnogu \u0137ekars",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 21,
+        "question": "K\u0101d\u0101 kr\u0101s\u0101 ir rub\u012bns?",
+        "answer": "Sarkan\u0101",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 22,
+        "question": "Cik k\u0101ju ir zirneklim?",
+        "answer": "Asto\u0146as",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 23,
+        "question": "K\u0101 sauc seri\u0101lu b\u0113rniem, kur\u0101 galven\u0101 varone ir meitene ar rota\u013cu biedriem Lapsu, Feneku un \u0100ps\u012bti?",
+        "answer": "Tutas lietas",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 24,
+        "question": "Citam ko\u017e - pats raud! Kas tas ir?",
+        "answer": "Z\u0101\u0123is",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 25,
+        "question": "Cik nu\u013c\u013cu ir vienam miljonam?",
+        "answer": "Se\u0161as",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 26,
+        "question": "K\u0101d\u0101 augl\u012b iek\u0101rtota S\u016bk\u013ca Boba Kvadr\u0101tbik\u0161a m\u0101ja?",
+        "answer": "Anan\u0101s\u0101",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 27,
+        "question": "K\u0101ds dz\u012bvnieks ir Vinnijs P\u016bks?",
+        "answer": "l\u0101cis",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 28,
+        "question": "Ko Siv\u0113ns uzd\u0101vin\u0101ja \u0113zel\u012btim I-\u0100 dzim\u0161anas dien\u0101?",
+        "answer": "Sapl\u0113stu balonu",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 29,
+        "question": "K\u0101 sauc Annas m\u0101su no anim\u0101cijas filmas Ledus sirds (Frozen)?",
+        "answer": "Elza",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 30,
+        "question": "Cik \u0161\u0137aut\u0146u ir kubam?",
+        "answer": "Divpadsmit",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 31,
+        "question": "Cik metru ir kilometr\u0101?",
+        "answer": "T\u016bkstotis",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 32,
+        "question": "Kura plan\u0113ta ir vistuv\u0101k\u0101 Saulei?",
+        "answer": "Merkurs",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 33,
+        "question": "K\u0101 sauc aitu mazu\u013cus?",
+        "answer": "J\u0113ri",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 34,
+        "question": "K\u0101 sauc govju mazu\u013cus?",
+        "answer": "Te\u013ci",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 35,
+        "question": "K\u0101 sauc su\u0146u mazu\u013cus?",
+        "answer": "Kuc\u0113ni",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 36,
+        "question": "Nosauc maz\u0101ko kontinentu!",
+        "answer": "Austr\u0101lija",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 37,
+        "question": "K\u0101d\u0101 kr\u0101s\u0101 ir smaragds?",
+        "answer": "Za\u013c\u0101",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 38,
+        "question": "No k\u0101diem aug\u013ciem gatavo roz\u012bnes?",
+        "answer": "No v\u012bnog\u0101m",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 39,
+        "question": "K\u0101das sugas zivs ir Nemo no anim\u0101cijas filmas Mekl\u0113jot Nemo?",
+        "answer": "Klaunzivs",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 40,
+        "question": "Kur\u0101 valst\u012b atrodas Liel\u0101 Gizas piram\u012bda?",
+        "answer": "\u0112\u0123ipt\u0113",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 41,
+        "question": "Cik dienu ir gad\u0101?",
+        "answer": "365",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 42,
+        "question": "K\u0101 sauc rota\u013cu kovboju no anim\u0101cijas filmas Rota\u013clietas st\u0101sts?",
+        "answer": "Vudijs",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 43,
+        "question": "Kuram dz\u012bvniekam ir gar\u0101kais kakls?",
+        "answer": "\u017dirafei",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 44,
+        "question": "Kur\u0161 ir augst\u0101kais kalns uz Zemes?",
+        "answer": "Everests",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 45,
+        "question": "Kur\u0101 debesspus\u0113 aust Saule?",
+        "answer": "Austrumos",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 46,
+        "question": "K\u0101 sauc Harija Potera p\u016bci?",
+        "answer": "Hedviga",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 47,
+        "question": "Kur\u0161 ir Grie\u0137ijas dievu valdnieks?",
+        "answer": "Zevs",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 48,
+        "question": "Kas ir polka?",
+        "answer": "Deja",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 49,
+        "question": "Kas ir dzi\u013c\u0101k\u0101 vieta uz Zemes?",
+        "answer": "Mariannas dzi\u013cvaga (aptuveni 11km dzi\u013ca)",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 50,
+        "question": "Kur\u0161 ir pats maz\u0101kais z\u012bd\u012bt\u0101js pasaul\u0113?",
+        "answer": "Etr\u016brijas cirsl\u012btis (Suncus etruscus) sver maz\u0101k k\u0101 2 gramus",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 51,
+        "question": "Kurus dz\u012bvniekus m\u0113dz saukt par \"j\u016bras gov\u012bm\"?",
+        "answer": "Lamant\u012bnus",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 52,
+        "question": "Kura valsts uzd\u0101vin\u0101ja ASV Br\u012bv\u012bbas statuju?",
+        "answer": "Francija",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 53,
+        "question": "Kur\u0161 ir liel\u0101kais ka\u0137u dzimtas dz\u012bvnieks?",
+        "answer": "T\u012b\u0123eris",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 54,
+        "question": "Kurs ir maz\u0101kais putns pasaul\u0113?",
+        "answer": "Bi\u0161u kolibri (Mellisuga helenae)",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 55,
+        "question": "Kuri z\u012bd\u012bt\u0101ji d\u0113j olas?",
+        "answer": "Ehidnas un p\u012b\u013ckn\u0101bji",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 56,
+        "question": "Kuri dz\u012bvnieki sp\u0113j iem\u0101c\u012bties atdarin\u0101t cilv\u0113ku valodu?",
+        "answer": "Papagai\u013ci",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 57,
+        "question": "Kur\u0161 z\u012bd\u012bt\u0101js prot lidot?",
+        "answer": "Siksp\u0101rnis",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 58,
+        "question": "Kur\u0161 sauszemes dz\u012bvnieks sp\u0113j visplat\u0101k atv\u0113rt muti?",
+        "answer": "N\u012blzirgs",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 59,
+        "question": "Kura ir gar\u0101k\u0101 upe pasaul\u0113?",
+        "answer": "N\u012bla. T\u0101 atrodas \u0100frik\u0101 un ir 6852 km gara.",
+        "difficulty": "hard",
+        "fun_fact": "Nosaukums \"N\u012bla\" c\u0113lies no grie\u0137u valodas v\u0101rda Neilos (\u039d\u03b5\u03b9\u03bb\u03bf\u03c2) \u2014 \u2018upes ieleja\u2019."
+    },
+    {
+        "id": 60,
+        "question": "K\u0101 sauc zivju elpo\u0161anas org\u0101nu?",
+        "answer": "\u017daunas",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 61,
+        "question": "K\u0101 sauc bi\u0161u t\u0113vi\u0146u?",
+        "answer": "Trans",
+        "difficulty": "hard",
+        "fun_fact": "At\u0161\u0137ir\u012bb\u0101 no p\u0101r\u0113j\u0101m bit\u0113m traniem nav dzelo\u0146a."
+    },
+    {
+        "id": 62,
+        "question": "Kuram dinozauram bija 15 ragu?",
+        "answer": "Kosmoceratopam",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 63,
+        "question": "No k\u0101 baid\u0101s cilv\u0113ki, kuri cie\u0161 no arahnofobijas?",
+        "answer": "No zirnek\u013ciem",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 64,
+        "question": "Kuri odi ko\u017e? M\u0101t\u012btes vai t\u0113vi\u0146i?",
+        "answer": "M\u0101t\u012btes jo asinis nepiecie\u0161amas lai d\u0113tu oli\u0146as",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 65,
+        "question": "Kur\u0161 dz\u012bvnieks \u0113d tikai eikaliptu lapas?",
+        "answer": "Koala",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 66,
+        "question": "Kuram putnam ir visliel\u0101kais sp\u0101rnu pl\u0113tums?",
+        "answer": "Klejot\u0101jalbatrosa (Diomedea exulans) sp\u0101rnu pl\u0113tums var sasniegt 3.5 metrus",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 67,
+        "question": "Kuram dz\u012bvniekam ir sp\u0113c\u012bg\u0101kais sakodiens?",
+        "answer": "N\u012blas krokodilam",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 68,
+        "question": "Kur\u0161 dz\u012bvnieks rada kakas kubi\u0146u form\u0101?",
+        "answer": "Vombats",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 69,
+        "question": "K\u0101d\u0101 kr\u0101s\u0101 ir pol\u0101rl\u0101\u010du ka\u017eoka mati\u0146i?",
+        "answer": "Caursp\u012bg\u012bgi. Tie atstaro gaismu t\u0101p\u0113c izskat\u0101s balti",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 70,
+        "question": "Kas ir Latvijas galvaspils\u0113ta?",
+        "answer": "R\u012bga",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 71,
+        "question": "Kas ir Lietuvas galvaspils\u0113ta?",
+        "answer": "Vi\u013c\u0146a",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 72,
+        "question": "Kas ir Igaunijas galvaspils\u0113ta?",
+        "answer": "Tallina",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 73,
+        "question": "Kur\u0101 valst\u012b s\u0101k\u0101s Olimpisko sp\u0113\u013cu trad\u012bcija?",
+        "answer": "Grie\u0137ij\u0101",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 74,
+        "question": "Cik ap\u013cu ir Olimpisko sp\u0113\u013cu logo?",
+        "answer": "Pieci",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 75,
+        "question": "Kur\u0161 izgudroja telefonu?",
+        "answer": "Aleksandrs Bells",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 76,
+        "question": "Kur\u0101 gad\u0101 s\u0101k\u0101s Otrais pasaules kar\u0161?",
+        "answer": "1939",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 77,
+        "question": "No cik turn\u012briem sast\u0101v Grand Slam tenis\u0101?",
+        "answer": "No \u010detriem: Austr\u0101lijas, Francijas, Vimbldonas un ASV",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 78,
+        "question": "Cik bie\u017ei notiek pasaules kauss futbol\u0101?",
+        "answer": "Reizi \u010detros gados",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 79,
+        "question": "K\u0101 sauc br\u012bdi, kur\u0101 diena un nakts ir vien\u0101da garuma?",
+        "answer": "Ekvinokcija notiek divas reizes gad\u0101 - ruden\u012b un pavasar\u012b",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 80,
+        "question": "Vai tom\u0101ts ir d\u0101rzenis vai oga?",
+        "answer": "Oga",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 81,
+        "question": "Kura ir pasaul\u0113 liel\u0101k\u0101 sala, kas nav kontinents?",
+        "answer": "Grenlande",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 82,
+        "question": "Kura ir karst\u0101k\u0101 plan\u0113ta Saules sist\u0113m\u0101?",
+        "answer": "Ven\u0113ra",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 83,
+        "question": "Kuru plan\u0113tu reiz\u0113m sauc par \"Sarkano plan\u0113tu\"?",
+        "answer": "Marsu",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 84,
+        "question": "Cik m\u0113ne\u0161u ir Marsam?",
+        "answer": "Divi - Foboss un Deimoss",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 85,
+        "question": "K\u0101 sauc vietu, kur\u0101 lieto teleskopus un citas iek\u0101rtas kosmosa p\u0113t\u012b\u0161anai?",
+        "answer": "Observatorija",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 86,
+        "question": "Cik veca ir Saule?",
+        "answer": "Aptuveni 4.6 miljardi gadu",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 87,
+        "question": "K\u0101 sauc pirmo cilv\u0113ku, kur\u0161 izk\u0101pa uz M\u0113ness?",
+        "answer": "N\u012bls \u0100rmstrongs",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 88,
+        "question": "Cik ilgs laiks nepiecie\u0161ams lai gaisma atlidotu no Saules l\u012bdz Zemei?",
+        "answer": "Aptuveni 8.3 min\u016btes, jeb 499 sekundes",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 89,
+        "question": "Kur\u0161 bija pirmais cilv\u0113ks kosmos\u0101?",
+        "answer": "Jurijs Gagarins",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 90,
+        "question": "K\u0101 sauc grie\u0137u Kara un gudr\u012bbas dievieti?",
+        "answer": "At\u0113na",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 91,
+        "question": "Kur\u0161 ir Nobela pr\u0113mijas dibin\u0101t\u0101js?",
+        "answer": "Alfr\u0113ds Nobels",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 92,
+        "question": "Kur\u0101 valst\u012b izgudroja pap\u012bra naudu?",
+        "answer": "\u0136\u012bn\u0101",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 93,
+        "question": "Kur\u0161 ir slaven\u0101s lugas \"Hamlets\" autors?",
+        "answer": "Viljams \u0160eksp\u012brs",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 94,
+        "question": "Cik gleznu Vincents van Gogs p\u0101rdeva savas dz\u012bves laik\u0101?",
+        "answer": "Tikai vienu",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 95,
+        "question": "Kur\u0161 apgleznoja Siksta kapellas griestus?",
+        "answer": "Mikeland\u017eelo",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 96,
+        "question": "Kura bija pirm\u0101 sieviete, kura sa\u0146\u0113ma Nobela pr\u0113miju?",
+        "answer": "Marija Kir\u012b",
+        "difficulty": "hard",
+        "fun_fact": "Marija Kir\u012b sa\u0146\u0113ma pr\u0113miju divreiz 1903. gad\u0101 fizik\u0101 un 1911. gad\u0101 \u0137\u012bmij\u0101"
+    },
+    {
+        "id": 97,
+        "question": "Kur\u0161 uzgleznoja slaveno gleznu \"Sv\u0113tais vakar\u0113diens\"?",
+        "answer": "Leonardo da Vin\u010di",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 98,
+        "question": "Kura sen\u0101 civiliz\u0101cija izgudroja riteni?",
+        "answer": "Mezopot\u0101mija jeb Divupe",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 99,
+        "question": "Cik punktus basketbol\u0101 pie\u0161\u0137ir par bumbas triecienu groz\u0101 no aug\u0161as?",
+        "answer": "Divus",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 100,
+        "question": "Kur\u0161 ir izc\u012bn\u012bjis visvair\u0101k olimpisko zelta meda\u013cu?",
+        "answer": "ASV peld\u0113t\u0101jam Maiklam Felpsam ir 28 zelta meda\u013cas",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 101,
+        "question": "K\u0101das kr\u0101sas kart\u012bte futbol\u0101 noz\u012bm\u0113 noraid\u012bjumu?",
+        "answer": "Sarkan\u0101",
+        "difficulty": "hard",
+        "fun_fact": "2022. gad\u0101 Francijas virsl\u012bg\u0101 k\u0101du sp\u0113l\u0113t\u0101ju noraid\u012bja jau sp\u0113les dev\u012btaj\u0101 sekund\u0113"
+    },
+    {
+        "id": 102,
+        "question": "Cik min\u016b\u0161u ilgst futbola ma\u010ds?",
+        "answer": "90 min\u016btes",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 103,
+        "question": "K\u0101da veida sacens\u012bbas ir Tour de France?",
+        "answer": "Rite\u0146brauk\u0161ana",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 104,
+        "question": "Kur\u0101 komand\u0101 savu karjeru NBA s\u0101ka Kristaps Porzin\u0123is?",
+        "answer": "\u0145ujorkas Knicks",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 105,
+        "question": "Kuru sporta veidu p\u0101rst\u0101v Martins Dukurs?",
+        "answer": "Skeletonu",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 106,
+        "question": "Kur\u0161 ir liel\u0101kais Latvijas ezers?",
+        "answer": "Lub\u0101ns",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 107,
+        "question": "Kura ir gar\u0101k\u0101 Latvijas upe?",
+        "answer": "Gauja - t\u0101s garums Latvijas teritorij\u0101 ir 452 km",
+        "difficulty": "hard",
+        "fun_fact": "Daugavas kopgarums 1005 km, ta\u010du Latvij\u0101 tikai 352km"
+    },
+    {
+        "id": 108,
+        "question": "Kur\u0161 ir Latvijas nacion\u0101lais putns?",
+        "answer": "Balt\u0101 cielava",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 109,
+        "question": "Cik izpild\u012bt\u0101ju ansamblis ir kvintets?",
+        "answer": "Piecu",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 110,
+        "question": "K\u0101 sauc vara un alvas sakaus\u0113jumu?",
+        "answer": "Bronza",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 111,
+        "question": "Cik zvaig\u017e\u0146u tur Br\u012bv\u012bbas pieminek\u013ca sievietes t\u0113ls?",
+        "answer": "Tr\u012bs",
+        "difficulty": "easy",
+        "fun_fact": ""
+    },
+    {
+        "id": 112,
+        "question": "Kura ir pasaul\u0113 d\u0101rg\u0101k\u0101 gar\u0161viela?",
+        "answer": "Safr\u0101ns",
+        "difficulty": "hard",
+        "fun_fact": "Safr\u0101ns var maks\u0101t pat 5-10\u20ac par 1 gramu"
+    },
+    {
+        "id": 113,
+        "question": "Patiesi vai aplami - diennakt\u012b ir 86400 sekundes.",
+        "answer": "Patiesi",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 114,
+        "question": "K\u0101ds ir p\u0113d\u0113jais burts grie\u0137u alfab\u0113t\u0101?",
+        "answer": "Omega - \u03a9, \u03c9",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 115,
+        "question": "Cik tausti\u0146u ir standarta klavier\u0113m?",
+        "answer": "88 tausti\u0146i - 52 balti un 36 melni",
+        "difficulty": "hard",
+        "fun_fact": "Imperial B\u00f6sendorfer ir \u012bpa\u0161as lielas klavieres, t\u0101m ir 97 tausti\u0146i"
+    },
+    {
+        "id": 116,
+        "question": "Kur\u0161 ir \u0101tr\u0101kais sauszemes dz\u012bvnieks?",
+        "answer": "Gepards sp\u0113j sasniegt pat 112 km\/h lielu \u0101trumu",
+        "difficulty": "easy",
+        "fun_fact": "Gepards nesp\u0113j uzk\u0101pt kok\u0101 k\u0101 citiem ka\u0137u dzimtas dz\u012bvnieki."
+    },
+    {
+        "id": 117,
+        "question": "K\u0101das taut\u012bbas bija m\u0101kslinieks Pikaso?",
+        "answer": "Sp\u0101nis",
+        "difficulty": "hard",
+        "fun_fact": null
+    }
+]

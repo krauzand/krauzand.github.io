@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="lv">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Bootstrap CSS -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css">
+
+	<title>Jautājumi</title>
+	<style>
+		.question {
+			border-radius: 12px;
+		}
+
+		.question::before, .question::after {
+			content: '';
+			position: absolute;
+			display: block;
+			height: 0;
+			width: 0;
+		}
+
+		.question::before {
+			border: 15px solid transparent;
+			border-top: 45px solid rgba(0,0,0,.125);
+			bottom: -60px;
+			left: 40px;
+		}
+
+		.question::after {
+			border: 15px solid transparent;
+			border-top: 40px solid #fff;
+			bottom: -53px;
+			left: 40px;
+		}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="row mt-4 g-0">
+		<div class="col-lg-6">
+			<div class="card m-1 question" id="q-card">
+				<div class="card-body">
+					<h5 class="card-title" id="q-question"></h5>
+					<div class="answer d-none" id="q-answer"></div>
+					<div class="alert alert-info d-none mt-2" id="q-fun-fact" role="alert" data-bs-toggle="tooltip" title="Interesants fakts">
+						<strong><i class="bi bi-info-circle ml-2"></i></strong>
+						<span id="q-fun-fact-value"></span>
+					</div>
+				</div>
+			</div>
+			
+		</div>
+	</div>
+
+	<div class="row mt-5">
+		<div class="col-4 col-sm-4 col-md-2 d-flex align-items-center">
+			<div class="text-muted">
+				<img src="black-cat.png" class="img-fluid rounded-start" alt="Melns kaķis" title="Cat icons created by amonrat rungreangfangsai - Flaticon">
+				<p class="text-center" style="font-size: 8px;">#<span id="q-id"></span></p>
+			</div>
+		</div>
+		<div class="col-8 col-sm-8 col-md-6">
+			<div class="m-1 mt-2">
+				<button class="btn btn-sm btn-primary m-1" id="q-show-answer" onclick="question.showAnswer();">Parādīt atbildi</button>
+				<button class="btn btn-sm btn-outline-primary m-1" id="q-next-question" onclick="question.getRandomQuestion();">Nākamais jautājums</button>
+			</div>
+		</div>
+	</div>
+	<footer class="py-3 my-8">
+	</footer>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<script src="q.js?1002"></script>
+</body>
+</html>
