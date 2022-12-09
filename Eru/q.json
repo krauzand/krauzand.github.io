@@ -1118,5 +1118,33 @@
         "answer": "Patiesi",
         "difficulty": "hard",
         "fun_fact": "Ik gadu Zemes grie\u0161an\u0101s \u0101trums pal\u0113nin\u0101s par 17 mikrosekund\u0113m, tolaik dienas ilgums bija aptuveni 22 stundas."
+    },
+    {
+        "id": 161,
+        "question": "Kur\u0161 kompon\u0113jis Latvijas himnu \"Dievs, sv\u0113t\u012b Latviju!\"",
+        "answer": "Bauma\u0146u K\u0101rlis",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 162,
+        "question": "Kur\u0161 ir Latvijas ar sal\u0101m bag\u0101t\u0101kais ezers?",
+        "answer": "E\u017eezers. Taj\u0101 ir 35 salas",
+        "difficulty": "hard",
+        "fun_fact": "Pavisam ezer\u0101 saskait\u012bti ap 70 salveid\u012bgi veidojumi, ta\u010du aptuveni puse no tiem ir ar niedr\u0113m un meldriem apaugu\u0161i s\u0113k\u013ci."
+    },
+    {
+        "id": 163,
+        "question": "Kur\u0101 ezer\u0101 atrodas Moricsala?",
+        "answer": "Usmas ezer\u0101",
+        "difficulty": "hard",
+        "fun_fact": "Moricsal\u0101 atrodas dabas rezerv\u0101ts un t\u0101 ir sen\u0101k\u0101 aizsarg\u0101jam\u0101 dabas teritorija Latvij\u0101."
+    },
+    {
+        "id": 164,
+        "question": "Kuru d\u0113v\u0113 par Dainu t\u0113vu?",
+        "answer": "Kri\u0161j\u0101ni Baronu",
+        "difficulty": "hard",
+        "fun_fact": "K. Barona izveidotais Dainu skapis glab\u0101 268815 lapi\u0146as."
     }
 ]
