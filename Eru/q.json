@@ -1151,7 +1151,7 @@
         "id": 165,
         "question": "K\u0101 sauc burvi, kur\u0161 kop\u0101 ar r\u016b\u0137iem un hobitu dev\u0101s atbr\u012bvot Vientu\u013co kalnu no p\u016b\u0137a Smauga(no D\u017e.R.R. Tolk\u012bna gr\u0101matas Hobits)?",
         "answer": "Gendalfs",
-        "difficulty": "Gendalfs ir vair\u0101k k\u0101 11000 gadu vecs.",
+        "difficulty": "Gendalfs ir vair\u0101k k\u0101 11000 gadu vecs",
         "fun_fact": null
     },
     {
@@ -1188,5 +1188,12 @@
         "answer": "K\u0101r\u013ca Padega z\u012bm\u0113jums ar z\u0101bakiem un sun\u012bti",
         "difficulty": "hard",
         "fun_fact": null
+    },
+    {
+        "id": 171,
+        "question": "Kur\u0161 ir Mikipeles un Donalda Daka autors?",
+        "answer": "Volts Disnejs",
+        "difficulty": "medium",
+        "fun_fact": "Disnejs izgudroja ar\u012b Disnejlendu un pats piedal\u012bj\u0101s pirm\u0101s Disnejlendas veido\u0161an\u0101"
     }
 ]
