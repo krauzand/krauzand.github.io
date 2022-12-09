@@ -452,7 +452,7 @@
         "question": "Kur\u0161 dz\u012bvnieks \u0113d tikai eikaliptu lapas?",
         "answer": "Koala",
         "difficulty": "medium",
-        "fun_fact": null
+        "fun_fact": "Koalas m\u0113dz saukt par l\u0101c\u012b\u0161iem lai gan tie ir somai\u0146i, t\u0101tad tie ir l\u012bdz\u012bg\u0101ki \u0137enguriem nek\u0101 l\u0101\u010diem"
     },
     {
         "id": 66,
@@ -540,7 +540,7 @@
     },
     {
         "id": 78,
-        "question": "Cik bie\u017ei notiek pasaules kauss futbol\u0101?",
+        "question": "Cik bie\u017ei notiek Pasaules kauss futbol\u0101?",
         "answer": "Reizi \u010detros gados",
         "difficulty": "hard",
         "fun_fact": null
@@ -627,7 +627,7 @@
         "question": "K\u0101 sauc grie\u0137u Kara un gudr\u012bbas dievieti?",
         "answer": "At\u0113na",
         "difficulty": "hard",
-        "fun_fact": null
+        "fun_fact": "Zin\u0101tnieki v\u0113l str\u012bdas vai Grie\u0137ijas galvaspils\u0113ta At\u0113nas nosaukta par godu dievietei, vai dieviete pie\u0146\u0113ma pilst\u0113tas nosaukumu"
     },
     {
         "id": 91,
@@ -648,7 +648,7 @@
         "question": "Kur\u0161 ir slaven\u0101s lugas \"Hamlets\" autors?",
         "answer": "Viljams \u0160eksp\u012brs",
         "difficulty": "medium",
-        "fun_fact": null
+        "fun_fact": "No \u0161\u012bs lugas ir slavenais cit\u0101ts \"B\u016bt vai neb\u016bt\" (To be, or not to be)"
     },
     {
         "id": 94,
@@ -659,10 +659,10 @@
     },
     {
         "id": 95,
-        "question": "Kur\u0161 apgleznoja Siksta kapellas griestus?",
+        "question": "Kur\u0161 apgleznoja Siksta kapelas griestus?",
         "answer": "Mikeland\u017eelo",
         "difficulty": "hard",
-        "fun_fact": null
+        "fun_fact": "Siksta kapela atrodas Vatik\u0101n\u0101, m\u016bsdien\u0101s taj\u0101 iek\u0101rtots muzejs"
     },
     {
         "id": 96,
