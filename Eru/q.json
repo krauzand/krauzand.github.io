@@ -36,7 +36,7 @@
     },
     {
         "id": 6,
-        "question": "Kur\u0161 ir Toms no multiplik\u0101cijas filmas Toms un D\u017eerijs? Ka\u0137is vai pele?",
+        "question": "Kur\u0161 ir Toms no multiplik\u0101cijas filmas \"Toms un D\u017eerijs\"? Ka\u0137is vai pele?",
         "answer": "Ka\u0137is",
         "difficulty": "easy",
         "fun_fact": null
@@ -288,7 +288,7 @@
     },
     {
         "id": 42,
-        "question": "K\u0101 sauc rota\u013cu kovboju no anim\u0101cijas filmas Rota\u013clietas st\u0101sts?",
+        "question": "K\u0101 sauc rota\u013cu kovboju no anim\u0101cijas filmas \"Rota\u013clietas st\u0101sts\"?",
         "answer": "Vudijs",
         "difficulty": "easy",
         "fun_fact": null
@@ -1048,5 +1048,75 @@
         "answer": "Divdesmit - 16 bandinieku un 4 zirgu g\u0101jieni",
         "difficulty": "hard",
         "fun_fact": null
+    },
+    {
+        "id": 151,
+        "question": "Cik vecs ir Raiders no multiplik\u0101cijas filmas \u0136epu patru\u013ca (Paw patrol)?",
+        "answer": "10 gadus vecs",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 152,
+        "question": "Ar ko slavens P\u012bters Bend\u017eamins P\u0101rkers?",
+        "answer": "Vi\u0146\u0161 ir Zirnek\u013ccilv\u0113ks jeb Spaidermens",
+        "difficulty": "hard",
+        "fun_fact": "P\u012bters P\u0101rkers nav vien\u012bgais supervaronis, kas ir pie\u0146\u0113mis pseidon\u012bmu Zirnek\u013ccilv\u0113ks. T\u0101du ir pie\u0146\u0113mu\u0161i ar\u012b citi person\u0101\u017ei, piem\u0113ram, Bens Reilijs un Migels Ohara."
+    },
+    {
+        "id": 153,
+        "question": "K\u0101 sauc kosmosa ku\u0123a \"T\u016bksto\u0161gades piek\u016bns\" (Millennium Falcon) kapteini no filmu s\u0113rijas Zvaig\u017e\u0146u kari?",
+        "answer": "Hans Solo",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 154,
+        "question": "Patiesi vai aplami - da\u017ei dinozauri ir biju\u0161i t\u012btara izm\u0113r\u0101?",
+        "answer": "Patiesi",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 155,
+        "question": "Cik ragu bija triceratopiem?",
+        "answer": "Tr\u012bs",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 156,
+        "question": "Kas ir fosilijas?",
+        "answer": "P\u0101rakme\u0146ojumi - dz\u012bvnieku, augu vai citu organismu p\u0101rakme\u0146oju\u0161\u0101s paliekas.",
+        "difficulty": "hard",
+        "fun_fact": "Fosilijas var b\u016bt vair\u0101ku miljonu gadu vecas, izm\u0113ros no da\u017eiem milimetriem l\u012bdz vair\u0101kiem metriem."
+    },
+    {
+        "id": 157,
+        "question": "K\u0101ds dz\u012bvnieks bija Megalodons?",
+        "answer": "Haizivju suga, kas dz\u012bvoja pirms vair\u0101kiem miljoniem gadu.",
+        "difficulty": "hard",
+        "fun_fact": "Megalodons ir viens no liel\u0101kajiem pl\u0113s\u0113jiem, kas dz\u012bvoju\u0161i uz Zemes. Tas bijis l\u012bdz 16 metru gar\u0161 un sv\u0113ris 47 tonnas."
+    },
+    {
+        "id": 158,
+        "question": "K\u0101 sauc iedom\u0101tu l\u012bniju apk\u0101rt Zemeslodei, kas ir vien\u0101d\u0101 att\u0101lum\u0101 no Zieme\u013cpola un Dienvidpola?",
+        "answer": "Ekvators",
+        "difficulty": "hard",
+        "fun_fact": "Ekvatora garums ir aptuveni 40075 km."
+    },
+    {
+        "id": 159,
+        "question": "Kura ir tre\u0161\u0101 plan\u0113ta Saules sist\u0113m\u0101, skaitot no Saules?",
+        "answer": "Zeme",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 160,
+        "question": "Patiesi vai aplami - pirms daudziem miljoniem gadu vien\u0101 gad\u0101 uz Zemes bija aptuveni 400 dienu?",
+        "answer": "Patiesi",
+        "difficulty": "hard",
+        "fun_fact": "Ik gadu Zemes grie\u0161an\u0101s \u0101trums pal\u0113nin\u0101s par 17 mikrosekund\u0113m, tolaik dienas ilgums bija aptuveni 22 stundas."
     }
 ]
