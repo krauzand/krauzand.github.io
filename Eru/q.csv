@@ -10,7 +10,7 @@ Cik riteņu ir kvadraciklam?; Četri;easy
 Kā sauc kaķi no multiplikācijas filmu cikla "Fantadroms"?; Indriķis Trīspadsmitais;hard
 Kura ir lielākā planēta Saules sistēmā?;Jupiters;easy
 Cik zobu ir pieaugušam cilvēkam?;Trīsdesmit divi;easy
-Kura ir mazākā valsts pasaulē?;Vatikāns;medium
+Kura ir mazākā valsts pasaulē?;Vatikāns;medium; Tā ir pilsētvalsts Itālijas galvaspilsētas Romas centrā. Apkārt Vatikānam ir uzbūvēta augsta akmens siena, kas kalpo kā valsts robeža.
 Nosauciet trīs pamatkrāsas?;Zils, sarkans, dzeltens;medium
 Kurā datumā ir Līgai vārdadiena?; 23. jūnijā; medium
 Kādā krāsā ir Latvijas karogs?; Sarkanbaltsarkans; easy
@@ -41,7 +41,7 @@ Kurā valstī atrodas Lielā Gizas piramīda?; Ēģiptē; medium
 Cik dienu ir gadā?; 365; easy
 Kā sauc rotaļu kovboju no animācijas filmas Rotaļlietas stāsts?; Vudijs; easy
 Kuram dzīvniekam ir garākais kakls?; Žirafei; easy
-Kurš ir augstākais kalns uz Zemes?; Everests; easy
+Kurš ir augstākais kalns uz Zemes?; Everests. Virsotnes augstums ir 8848.86 metri virs jūras līmeņa; easy
 Kurā debesspusē aust Saule?; Austrumos; easy
 Kā sauc Harija Potera pūci?; Hedviga; easy
 Kurš ir Grieķijas dievu valdnieks?; Zevs; hard
@@ -51,7 +51,7 @@ Kurš ir pats mazākais zīdītājs pasaulē?; Etrūrijas cirslītis (Suncus etr
 Kurus dzīvniekus mēdz saukt par "jūras govīm"?; Lamantīnus; hard
 Kura valsts uzdāvināja ASV Brīvības statuju?; Francija; hard
 Kurš ir lielākais kaķu dzimtas dzīvnieks?; Tīģeris; easy
-Kurs ir mazākais putns pasaulē?; Bišu kolibri (Mellisuga helenae); hard
+Kurs ir mazākais putns pasaulē?; Bišu kolibri (Mellisuga helenae); hard; Bišu kolibri dzīvo tikai Kubā, tie sver aptuveni 3 gramus un ir 5 cm gari.
 Kuri zīdītāji dēj olas?; Ehidnas un pīļknābji; hard
 Kuri dzīvnieki spēj iemācīties atdarināt cilvēku valodu?; Papagaiļi; easy
 Kurš zīdītājs prot lidot?; Sikspārnis; easy
@@ -77,7 +77,7 @@ Kurā gadā sākās Otrais pasaules karš?; 1939; medium
 No cik turnīriem sastāv Grand Slam tenisā?; No četriem: Austrālijas, Francijas, Vimbldonas un ASV; hard
 Cik bieži notiek pasaules kauss futbolā?; Reizi četros gados; hard
 Kā sauc brīdi, kurā diena un nakts ir vienāda garuma?; Ekvinokcija notiek divas reizes gadā - rudenī un pavasarī; hard
-Vai tomāts ir dārzenis vai oga?; Oga; medium
+Tomāts ir dārzenis vai oga?; Oga; medium
 Kura ir pasaulē lielākā sala, kas nav kontinents?; Grenlande; hard
 Kura ir karstākā planēta Saules sistēmā?; Venēra; hard
 Kuru planētu reizēm sauc par "Sarkano planētu"?; Marsu; hard
@@ -104,7 +104,7 @@ Kāda veida sacensības ir Tour de France?; Riteņbraukšana; hard
 Kurā komandā savu karjeru NBA sāka Kristaps Porzinģis?; Ņujorkas Knicks; hard
 Kuru sporta veidu pārstāv Martins Dukurs?; Skeletonu; hard
 Kurš ir lielākais Latvijas ezers?; Lubāns; hard
-Kura ir garākā Latvijas upe?; Gauja - tās garums Latvijas teritorijā ir 452 km; hard; Daugavas kopgarums 1005 km, taču Latvijā tikai 352 km
+Kura ir garākā Latvijas upe?; Gauja - tās garums Latvijas teritorijā ir 452 km; hard; Lai arī Daugavas kopgarums ir 1005 km, taču Latvijā tie ir tikai 352 km
 Kurš ir Latvijas nacionālais putns?; Baltā cielava; hard
 Cik izpildītāju ansamblis ir kvintets?; Piecu; hard
 Kā sauc vara un alvas sakausējumu?; Bronza; hard;
@@ -121,13 +121,33 @@ Kas rotā Latvijas eiro monētas aizmuguri (reversu)?; Tautu meitas attēls; eas
 Kurš ir dziļākais Latvijas ezers?; Drīdzis - dziļums 66.2 metri; hard; Drīdzis ir arī dziļākais ezers visā Baltijā
 Nosauc Baltijas valstis!; Latvija, Lietuva, Igaunija;easy
 Kā sauc taisnlenķa trīsstūra garāko malu?; Hipotenūza; hard
-Kā sauc personu, kurš sacer mūzikas skaņdarbus?; Komponists; medium
-Kā sauc salīdzinoši lielu instrumentu spēlētāju ansambli?; Orķestris; medium
+Kā sauc cilvēku, kurš sacer mūzikas skaņdarbus?; Komponists; medium
+Kā sauc salīdzinoši lielu instrumentālistu ansambli?; Orķestris; medium
 Kā sauc rakstīto tekstu, kas ir operas pamatā?; Librets; hard
 Ko mūzikas pierakstā nozīmē saīsinājums "f"?; Forte - skaļi, spēcīgi; hard
+Ko mūzikas pierakstā nozīmē saīsinājums "p"?; Piano - klusi, mierīgi; hard
 Kā sauc Šreka sievu no animācijas filmas "Šreks"?; Fiona; easy
 Kurš ir pirmais burts grieķu alfabētā?; Alfa - Α, α; hard
 Ko dēj vistas?; Olas; easy
+Kāda ir ūdens viršanas (vārīšanās) temperatūra?; 100 Celsija grādi; hard
+Kāda ir ūdens kušanas (sasalšanas) temperatūra?; 0 Celsija grādi; hard; Temperatūrai esot kaut nedaudz virs 0 grādiem ledus kūst, savukārt kaut nedaudz zem 0 grādiem ūdens sāk sasalt.
+No kā sastāv gaiss?; 78% slāpeklis, 21% skābeklis; hard; Atlikušo vienu procentu veido argons, oglekļa dioksīds, ūdens tvaiks un citas gāzes.
+Cik sver 1 litrs ūdens?; 1 kg jeb 1000 gramus; hard;
+Kas ir Lielbritānijas galvaspilsēta?; Londona; hard;
+Kuras valsts galvaspilsēta ir Madride?; Spānijas;hard;
+Kurš ir Latvijas augstākais kalns?; Gaiziņš. Tā augstums 311.94 metri virs jūras līmeņa.; hard
+Cik burtu ir latviešu alfabētā?; 33 burti; hard; Latviešu alfabēts ir latīņu alfabēta paveids.
+Kā sauc teritoriju, kas iekārtota kuģu un to pasažieru apkalpošanai?; Osta; easy
+Cik ir ducis?; 12; hard;
+Kad proklamēta Latvijas republika?; 1918. gada 18. novembrī; easy
+Kā sauc ēzeļu tēviņa un zirgu mātītes pēcnācēju?; Mūlis; hard; Mūļi ir mājlopi, kurus jau vairāk nekā 3000 gadus izmanto nastu nešanai.
+Kā sauc zirgu mātīti?; Ķēve; hard
+Kurš mājdzīvnieks ir pelēkā vilka pasuga?; Suns; easy; Pētījumi liecina, ka pelēkais vilks un suns ir viena suga — suns tiek uzskatīts par vilka pasugu, kas no vilka sāka atdalīties, iespējams, jau pirms 100000 gadiem.
+Kāds ķīmiskais savienojums var veidoties uz dzelzs priekšmetiem ūdens vai gaisa mitruma klātbūtnē?; Rūsa; hard
+Kas ir smiņķis?; Sejas kosmētika, piemēram, pūderis; hard;
+Kas ir tūļa?; Kāds, kas nepietiekami ātri, vilcinoties, arī neveikli ko dara, rīkojas; hard;
+Kurš izgudroja Rubika kubu?; Ernē Rubiks - Ungārijas arhitektūras profesors un tēlnieks; hard; 2018. gadā ķīnietim Jušenam Du (杜宇生) izdevās kubu salikt 3.47 sekundēs.
+Cik dažādos veidos var izdarīt pirmo gājienu šahā?; Divdesmit - 16 bandinieku un 4 zirgu gājieni; hard
 
 
 

@@ -88,7 +88,7 @@
         "question": "Kura ir maz\u0101k\u0101 valsts pasaul\u0113?",
         "answer": "Vatik\u0101ns",
         "difficulty": "medium",
-        "fun_fact": null
+        "fun_fact": "T\u0101 ir pils\u0113tvalsts It\u0101lijas galvaspils\u0113tas Romas centr\u0101. Apk\u0101rt Vatik\u0101nam ir uzb\u016bv\u0113ta augsta akmens siena, kas kalpo k\u0101 valsts robe\u017ea."
     },
     {
         "id": 14,
@@ -303,7 +303,7 @@
     {
         "id": 44,
         "question": "Kur\u0161 ir augst\u0101kais kalns uz Zemes?",
-        "answer": "Everests",
+        "answer": "Everests. Virsotnes augstums ir 8848.86 metri virs j\u016bras l\u012bme\u0146a",
         "difficulty": "easy",
         "fun_fact": null
     },
@@ -375,7 +375,7 @@
         "question": "Kurs ir maz\u0101kais putns pasaul\u0113?",
         "answer": "Bi\u0161u kolibri (Mellisuga helenae)",
         "difficulty": "hard",
-        "fun_fact": null
+        "fun_fact": "Bi\u0161u kolibri dz\u012bvo tikai Kub\u0101, tie sver aptuveni 3 gramus un ir 5 cm gari."
     },
     {
         "id": 55,
@@ -554,7 +554,7 @@
     },
     {
         "id": 80,
-        "question": "Vai tom\u0101ts ir d\u0101rzenis vai oga?",
+        "question": "Tom\u0101ts ir d\u0101rzenis vai oga?",
         "answer": "Oga",
         "difficulty": "medium",
         "fun_fact": null
@@ -746,7 +746,7 @@
         "question": "Kura ir gar\u0101k\u0101 Latvijas upe?",
         "answer": "Gauja - t\u0101s garums Latvijas teritorij\u0101 ir 452 km",
         "difficulty": "hard",
-        "fun_fact": "Daugavas kopgarums 1005 km, ta\u010du Latvij\u0101 tikai 352 km"
+        "fun_fact": "Lai ar\u012b Daugavas kopgarums ir 1005 km, ta\u010du Latvij\u0101 tie ir tikai 352 km"
     },
     {
         "id": 108,
@@ -862,14 +862,14 @@
     },
     {
         "id": 124,
-        "question": "K\u0101 sauc personu, kur\u0161 sacer m\u016bzikas ska\u0146darbus?",
+        "question": "K\u0101 sauc cilv\u0113ku, kur\u0161 sacer m\u016bzikas ska\u0146darbus?",
         "answer": "Komponists",
         "difficulty": "medium",
         "fun_fact": null
     },
     {
         "id": 125,
-        "question": "K\u0101 sauc sal\u012bdzino\u0161i lielu instrumentu sp\u0113l\u0113t\u0101ju ansambli?",
+        "question": "K\u0101 sauc sal\u012bdzino\u0161i lielu instrument\u0101listu ansambli?",
         "answer": "Or\u0137estris",
         "difficulty": "medium",
         "fun_fact": null
@@ -890,23 +890,163 @@
     },
     {
         "id": 128,
+        "question": "Ko m\u016bzikas pierakst\u0101 noz\u012bm\u0113 sa\u012bsin\u0101jums \"p\"?",
+        "answer": "Piano - klusi, mier\u012bgi",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 129,
         "question": "K\u0101 sauc \u0160reka sievu no anim\u0101cijas filmas \"\u0160reks\"?",
         "answer": "Fiona",
         "difficulty": "easy",
         "fun_fact": null
     },
     {
-        "id": 129,
+        "id": 130,
         "question": "Kur\u0161 ir pirmais burts grie\u0137u alfab\u0113t\u0101?",
         "answer": "Alfa - \u0391, \u03b1",
         "difficulty": "hard",
         "fun_fact": null
     },
     {
-        "id": 130,
+        "id": 131,
         "question": "Ko d\u0113j vistas?",
         "answer": "Olas",
         "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 132,
+        "question": "K\u0101da ir \u016bdens vir\u0161anas (v\u0101r\u012b\u0161an\u0101s) temperat\u016bra?",
+        "answer": "100 Celsija gr\u0101di",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 133,
+        "question": "K\u0101da ir \u016bdens ku\u0161anas (sasal\u0161anas) temperat\u016bra?",
+        "answer": "0 Celsija gr\u0101di",
+        "difficulty": "hard",
+        "fun_fact": "Temperat\u016brai esot kaut nedaudz virs 0 gr\u0101diem ledus k\u016bst, savuk\u0101rt kaut nedaudz zem 0 gr\u0101diem \u016bdens s\u0101k sasalt."
+    },
+    {
+        "id": 134,
+        "question": "No k\u0101 sast\u0101v gaiss?",
+        "answer": "78% sl\u0101peklis, 21% sk\u0101beklis",
+        "difficulty": "hard",
+        "fun_fact": "Atliku\u0161o vienu procentu veido argons, oglek\u013ca dioks\u012bds, \u016bdens tvaiks un citas g\u0101zes."
+    },
+    {
+        "id": 135,
+        "question": "Cik sver 1 litrs \u016bdens?",
+        "answer": "1 kg jeb 1000 gramus",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 136,
+        "question": "Kas ir Lielbrit\u0101nijas galvaspils\u0113ta?",
+        "answer": "Londona",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 137,
+        "question": "Kuras valsts galvaspils\u0113ta ir Madride?",
+        "answer": "Sp\u0101nijas",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 138,
+        "question": "Kur\u0161 ir Latvijas augst\u0101kais kalns?",
+        "answer": "Gaizi\u0146\u0161. T\u0101 augstums 311.94 metri virs j\u016bras l\u012bme\u0146a.",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 139,
+        "question": "Cik burtu ir latvie\u0161u alfab\u0113t\u0101?",
+        "answer": "33 burti",
+        "difficulty": "hard",
+        "fun_fact": "Latvie\u0161u alfab\u0113ts ir lat\u012b\u0146u alfab\u0113ta paveids."
+    },
+    {
+        "id": 140,
+        "question": "K\u0101 sauc teritoriju, kas iek\u0101rtota ku\u0123u un to pasa\u017eieru apkalpo\u0161anai?",
+        "answer": "Osta",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 141,
+        "question": "Cik ir ducis?",
+        "answer": "12",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 142,
+        "question": "Kad proklam\u0113ta Latvijas republika?",
+        "answer": "1918. gada 18. novembr\u012b",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 143,
+        "question": "K\u0101 sauc \u0113ze\u013cu t\u0113vi\u0146a un zirgu m\u0101t\u012btes p\u0113cn\u0101c\u0113ju?",
+        "answer": "M\u016blis",
+        "difficulty": "hard",
+        "fun_fact": "M\u016b\u013ci ir m\u0101jlopi, kurus jau vair\u0101k nek\u0101 3000 gadus izmanto nastu ne\u0161anai."
+    },
+    {
+        "id": 144,
+        "question": "K\u0101 sauc zirgu m\u0101t\u012bti?",
+        "answer": "\u0136\u0113ve",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 145,
+        "question": "Kur\u0161 m\u0101jdz\u012bvnieks ir pel\u0113k\u0101 vilka pasuga?",
+        "answer": "Suns",
+        "difficulty": "easy",
+        "fun_fact": "P\u0113t\u012bjumi liecina, ka pel\u0113kais vilks un suns ir viena suga \u2014 suns tiek uzskat\u012bts par vilka pasugu, kas no vilka s\u0101ka atdal\u012bties, iesp\u0113jams, jau pirms 100000 gadiem."
+    },
+    {
+        "id": 146,
+        "question": "K\u0101ds \u0137\u012bmiskais savienojums var veidoties uz dzelzs priek\u0161metiem \u016bdens vai gaisa mitruma kl\u0101tb\u016btn\u0113?",
+        "answer": "R\u016bsa",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 147,
+        "question": "Kas ir smi\u0146\u0137is?",
+        "answer": "Sejas kosm\u0113tika, piem\u0113ram, p\u016bderis",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 148,
+        "question": "Kas ir t\u016b\u013ca?",
+        "answer": "K\u0101ds, kas nepietiekami \u0101tri, vilcinoties, ar\u012b neveikli ko dara, r\u012bkojas",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 149,
+        "question": "Kur\u0161 izgudroja Rubika kubu?",
+        "answer": "Ern\u0113 Rubiks - Ung\u0101rijas arhitekt\u016bras profesors un t\u0113lnieks",
+        "difficulty": "hard",
+        "fun_fact": "2018. gad\u0101 \u0137\u012bnietim Ju\u0161enam Du (\u675c\u5b87\u751f) izdev\u0101s kubu salikt 3.47 sekund\u0113s."
+    },
+    {
+        "id": 150,
+        "question": "Cik da\u017e\u0101dos veidos var izdar\u012bt pirmo g\u0101jienu \u0161ah\u0101?",
+        "answer": "Divdesmit - 16 bandinieku un 4 zirgu g\u0101jieni",
+        "difficulty": "hard",
         "fun_fact": null
     }
 ]
