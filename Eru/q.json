@@ -1146,5 +1146,47 @@
         "answer": "Kri\u0161j\u0101ni Baronu",
         "difficulty": "hard",
         "fun_fact": "K. Barona izveidotais Dainu skapis glab\u0101 268815 lapi\u0146as."
+    },
+    {
+        "id": 165,
+        "question": "K\u0101 sauc burvi, kur\u0161 kop\u0101 ar r\u016b\u0137iem un hobitu dev\u0101s atbr\u012bvot Vientu\u013co kalnu no p\u016b\u0137a Smauga(no D\u017e.R.R. Tolk\u012bna gr\u0101matas Hobits)?",
+        "answer": "Gendalfs",
+        "difficulty": "Gendalfs ir vair\u0101k k\u0101 11000 gadu vecs.",
+        "fun_fact": null
+    },
+    {
+        "id": 166,
+        "question": "Kur\u0161 dz\u012bvoja savrupm\u0101j\u0101  Vistask\u0101ja?",
+        "answer": "Pepija Garze\u0137e",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 167,
+        "question": "Kur\u0161 ir augst\u0101kais \u016bdenskritums pasaul\u0113?",
+        "answer": "Anhela \u016bdenskritums Venecu\u0113l\u0101",
+        "difficulty": "hard",
+        "fun_fact": "Upi, kuru veido Anhela \u016bdenskrituma \u016bde\u0146i, sauc gan par Kerepu, gan par Gauju. Latvijas upes Gaujas v\u0101rd\u0101 to nosauca Venecu\u0113l\u0101 dz\u012bvoju\u0161ais latvie\u0161u p\u0113tnieks Aleksandrs Laime, kur\u0161 ir pirmais zin\u0101mais cilv\u0113ks v\u0113stur\u0113, kur\u0161 l\u012bdz Anhelam nok\u013cuva ar k\u0101j\u0101m."
+    },
+    {
+        "id": 168,
+        "question": "K\u0101 sauc pussalu, kuras liel\u0101ko da\u013cu aiz\u0146em It\u0101lija?",
+        "answer": "Apen\u012bnu pusssala",
+        "difficulty": "hard",
+        "fun_fact": "P\u0113c kont\u016bras kart\u0113 pussala atg\u0101dina z\u0101baku."
+    },
+    {
+        "id": 169,
+        "question": "Ko izgudroja Alfr\u0113ds Nobels?",
+        "answer": "Dinam\u012btu",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 170,
+        "question": "Kura m\u0101kslinieka darbs iedvesmoja Lu\u012bzes Pastores m\u0101kslas detekt\u012bvu gr\u0101matu \"Neredzamais cilv\u0113ks\"?",
+        "answer": "K\u0101r\u013ca Padega z\u012bm\u0113jums ar z\u0101bakiem un sun\u012bti",
+        "difficulty": "hard",
+        "fun_fact": null
     }
 ]
