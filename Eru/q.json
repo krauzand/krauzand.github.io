@@ -1195,5 +1195,33 @@
         "answer": "Volts Disnejs",
         "difficulty": "medium",
         "fun_fact": "Disnejs izgudroja ar\u012b Disnejlendu un pats piedal\u012bj\u0101s pirm\u0101s Disnejlendas veido\u0161an\u0101"
+    },
+    {
+        "id": 172,
+        "question": "K\u0101ds t\u0101lru\u0146a numurs j\u0101izmanto, ja esi non\u0101cis nelaim\u0113 un tev ir nepiecie\u0161ama pal\u012bdz\u012bba?",
+        "answer": "112 ir vienotais \u0101rk\u0101rtas pal\u012bdz\u012bbas izsaukumu t\u0101lrunis, kur vari v\u0113rsties p\u0113c pal\u012bdz\u012bbas, kad tas ir nepiecie\u0161ams",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 173,
+        "question": "Kas oblig\u0101ti j\u0101lieto velobrauc\u0113jam l\u012bdz 12 gadu vecumam?",
+        "answer": "\u0136ivere. Tai ir labi j\u0101piegu\u013c galvai, j\u0101b\u016bt cie\u0161i piespr\u0101dz\u0113tai t\u0101, lai nevar\u0113tu nob\u012bd\u012bties nevien\u0101 virzien\u0101",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 174,
+        "question": "Ko dar\u012bt, ja publisk\u0101 viet\u0101 esi nomald\u012bjies un vairs neredzi savus vec\u0101kus?",
+        "answer": "V\u0113rsties pie apsargiem, policistiem, p\u0101rdev\u0113jiem vai \u0123imen\u0113m ar b\u0113rniem, past\u0101st\u012bt, kas noticis",
+        "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 175,
+        "question": "No k\u0101da materi\u0101la bija Pelnru\u0161\u0137\u012btes balles kurp\u012btes?",
+        "answer": "No krist\u0101la",
+        "difficulty": "easy",
+        "fun_fact": null
     }
 ]
