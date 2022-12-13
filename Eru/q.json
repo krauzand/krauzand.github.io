@@ -1044,7 +1044,7 @@
     },
     {
         "id": 150,
-        "question": "Cik da\u017e\u0101dos veidos var izdar\u012bt pirmo g\u0101jienu \u0161ah\u0101?",
+        "question": "Cik da\u017e\u0101dos veidos baltie var izdar\u012bt savu pirmo g\u0101jienu \u0161ah\u0101?",
         "answer": "Divdesmit - 16 bandinieku un 4 zirgu g\u0101jieni",
         "difficulty": "hard",
         "fun_fact": null
@@ -1222,6 +1222,41 @@
         "question": "No k\u0101da materi\u0101la bija Pelnru\u0161\u0137\u012btes balles kurp\u012btes?",
         "answer": "No krist\u0101la",
         "difficulty": "easy",
+        "fun_fact": null
+    },
+    {
+        "id": 176,
+        "question": "Kur\u0161 arhitekts projekt\u0113jis un c\u0113lis Rund\u0101les pili?",
+        "answer": "Fran\u010desko Bartolomeo Rastrelli",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 177,
+        "question": "Kas ir filolo\u0123ija?",
+        "answer": "Zin\u0101tne par valodu un literat\u016bru",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 178,
+        "question": "K\u0101 senlatvie\u0161u mitolo\u0123ij\u0101 sauc likte\u0146l\u0113m\u0113ja dievieti?",
+        "answer": "Laima, ar\u012b Laimas m\u0101te",
+        "difficulty": "hard",
+        "fun_fact": "Laimas z\u012bme ir skuji\u0146a, kas l\u012bdzin\u0101s skuj\u0101m egles zar\u0101"
+    },
+    {
+        "id": 179,
+        "question": "Kas bija \u016asi\u0146a p\u0101rzi\u0146\u0101 senlatvie\u0161u mitolo\u0123ij\u0101?",
+        "answer": "Ziedo\u0146a un plauk\u0161anas diev\u012bba, gaismas un pavasara simbols, bi\u0161u un zirgu aizg\u0101dnis",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 180,
+        "question": "K\u0101 sauc divas taisnes plakn\u0113, kas nekrustojas?",
+        "answer": "Paral\u0113las taisnes",
+        "difficulty": "hard",
         "fun_fact": null
     }
 ]
