@@ -809,7 +809,7 @@
         "question": "Kur\u0161 ir \u0101tr\u0101kais sauszemes dz\u012bvnieks?",
         "answer": "Gepards sp\u0113j sasniegt pat 112 km\/h lielu \u0101trumu",
         "difficulty": "easy",
-        "fun_fact": "Gepards nesp\u0113j uzk\u0101pt kok\u0101 k\u0101 citiem ka\u0137u dzimtas dz\u012bvnieki."
+        "fun_fact": "Gepards nesp\u0113j uzk\u0101pt kok\u0101 k\u0101 citi ka\u0137u dzimtas dz\u012bvnieki."
     },
     {
         "id": 117,
@@ -925,7 +925,7 @@
     },
     {
         "id": 133,
-        "question": "K\u0101da ir \u016bdens ku\u0161anas (sasal\u0161anas) temperat\u016bra?",
+        "question": "K\u0101da ir ledus ku\u0161anas (\u016bdens sasal\u0161anas) temperat\u016bra?",
         "answer": "0 Celsija gr\u0101di",
         "difficulty": "hard",
         "fun_fact": "Temperat\u016brai esot kaut nedaudz virs 0 gr\u0101diem ledus k\u016bst, savuk\u0101rt kaut nedaudz zem 0 gr\u0101diem \u016bdens s\u0101k sasalt."
@@ -1012,7 +1012,7 @@
         "question": "Kur\u0161 m\u0101jdz\u012bvnieks ir pel\u0113k\u0101 vilka pasuga?",
         "answer": "Suns",
         "difficulty": "easy",
-        "fun_fact": "P\u0113t\u012bjumi liecina, ka pel\u0113kais vilks un suns ir viena suga \u2014 suns tiek uzskat\u012bts par vilka pasugu, kas no vilka s\u0101ka atdal\u012bties, iesp\u0113jams, jau pirms 100000 gadiem."
+        "fun_fact": "P\u0113t\u012bjumi liecina, ka pel\u0113kais vilks un suns ir viena suga. Suns tiek uzskat\u012bts par vilka pasugu, kas no vilka s\u0101ka atdal\u012bties, iesp\u0113jams, jau pirms 100000 gadiem."
     },
     {
         "id": 146,
@@ -1248,7 +1248,7 @@
     {
         "id": 179,
         "question": "Kas bija \u016asi\u0146a p\u0101rzi\u0146\u0101 senlatvie\u0161u mitolo\u0123ij\u0101?",
-        "answer": "Ziedo\u0146a un plauk\u0161anas diev\u012bba, gaismas un pavasara simbols, bi\u0161u un zirgu aizg\u0101dnis",
+        "answer": "\u016asi\u0146\u0161 ir ziedo\u0146a un plauk\u0161anas diev\u012bba, gaismas un pavasara simbols, bi\u0161u un zirgu aizg\u0101dnis",
         "difficulty": "hard",
         "fun_fact": null
     },
@@ -1258,5 +1258,12 @@
         "answer": "Paral\u0113las taisnes",
         "difficulty": "hard",
         "fun_fact": null
+    },
+    {
+        "id": 181,
+        "question": "Vai iesp\u0113jams tr\u012bsst\u016bris, kura malu garumi ir 1, 2 un 3?",
+        "answer": "N\u0113! Tr\u012bsst\u016bra jebkuru divu malu garumu summai j\u0101b\u016bt liel\u0101kai par tre\u0161o",
+        "difficulty": "hard",
+        "fun_fact": "Toties iesp\u0113jams ir tr\u012bsst\u016bris, kura malu garumi ir 1.000001, 2 un 3."
     }
 ]

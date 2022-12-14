@@ -113,7 +113,7 @@ Kura ir pasaulē dārgākā garšviela?; Safrāns; hard; Safrāns var maksāt pa
 Patiesi vai aplami - diennaktī ir 86400 sekundes.; Patiesi; medium
 Kāds ir pēdējais burts grieķu alfabētā?; Omega - Ω, ω; hard
 Cik taustiņu ir standarta klavierēm?; 88 taustiņi - 52 balti un 36 melni; hard; Imperial Bösendorfer ir īpašas lielas klavieres, tām ir 97 taustiņi
-Kurš ir ātrākais sauszemes dzīvnieks?; Gepards spēj sasniegt pat 112 km/h lielu ātrumu; easy; Gepards nespēj uzkāpt kokā kā citiem kaķu dzimtas dzīvnieki.
+Kurš ir ātrākais sauszemes dzīvnieks?; Gepards spēj sasniegt pat 112 km/h lielu ātrumu; easy; Gepards nespēj uzkāpt kokā kā citi kaķu dzimtas dzīvnieki.
 Kādas tautības bija mākslinieks Pikaso?; Spānis; hard
 Cik centu ir vienā eiro?;Simts;easy
 Kad ir Lāčplēša diena?; 11. novembrī; easy
@@ -130,7 +130,7 @@ Kā sauc Šreka sievu no animācijas filmas "Šreks"?; Fiona; easy
 Kurš ir pirmais burts grieķu alfabētā?; Alfa - Α, α; hard
 Ko dēj vistas?; Olas; easy
 Kāda ir ūdens viršanas (vārīšanās) temperatūra?; 100 Celsija grādi; hard
-Kāda ir ūdens kušanas (sasalšanas) temperatūra?; 0 Celsija grādi; hard; Temperatūrai esot kaut nedaudz virs 0 grādiem ledus kūst, savukārt kaut nedaudz zem 0 grādiem ūdens sāk sasalt.
+Kāda ir ledus kušanas (ūdens sasalšanas) temperatūra?; 0 Celsija grādi; hard; Temperatūrai esot kaut nedaudz virs 0 grādiem ledus kūst, savukārt kaut nedaudz zem 0 grādiem ūdens sāk sasalt.
 No kā sastāv gaiss?; 78% slāpeklis, 21% skābeklis; hard; Atlikušo vienu procentu veido argons, oglekļa dioksīds, ūdens tvaiks un citas gāzes.
 Cik sver 1 litrs ūdens?; 1 kg jeb 1000 gramus; hard;
 Kas ir Lielbritānijas galvaspilsēta?; Londona; hard;
@@ -142,7 +142,7 @@ Cik ir ducis?; 12; hard;
 Kad proklamēta Latvijas republika?; 1918. gada 18. novembrī; easy
 Kā sauc ēzeļu tēviņa un zirgu mātītes pēcnācēju?; Mūlis; hard; Mūļi ir mājlopi, kurus jau vairāk nekā 3000 gadus izmanto nastu nešanai.
 Kā sauc zirgu mātīti?; Ķēve; hard
-Kurš mājdzīvnieks ir pelēkā vilka pasuga?; Suns; easy; Pētījumi liecina, ka pelēkais vilks un suns ir viena suga — suns tiek uzskatīts par vilka pasugu, kas no vilka sāka atdalīties, iespējams, jau pirms 100000 gadiem.
+Kurš mājdzīvnieks ir pelēkā vilka pasuga?; Suns; easy; Pētījumi liecina, ka pelēkais vilks un suns ir viena suga. Suns tiek uzskatīts par vilka pasugu, kas no vilka sāka atdalīties, iespējams, jau pirms 100000 gadiem.
 Kāds ķīmiskais savienojums var veidoties uz dzelzs priekšmetiem ūdens vai gaisa mitruma klātbūtnē?; Rūsa; hard
 Kas ir smiņķis?; Sejas kosmētika, piemēram, pūderis; hard;
 Kas ir tūļa?; Kāds, kas nepietiekami ātri, vilcinoties, arī neveikli ko dara, rīkojas; hard;
@@ -176,8 +176,9 @@ No kāda materiāla bija Pelnrušķītes balles kurpītes?; No kristāla; easy
 Kurš arhitekts projektējis un cēlis Rundāles pili?; Frančesko Bartolomeo Rastrelli; hard
 Kas ir filoloģija?; Zinātne par valodu un literatūru; hard
 Kā senlatviešu mitoloģijā sauc likteņlēmēja dievieti?; Laima, arī Laimas māte; hard; Laimas zīme ir skujiņa, kas līdzinās skujām egles zarā
-Kas bija Ūsiņa pārziņā senlatviešu mitoloģijā?; Ziedoņa un plaukšanas dievība, gaismas un pavasara simbols, bišu un zirgu aizgādnis; hard
+Kas bija Ūsiņa pārziņā senlatviešu mitoloģijā?; Ūsiņš ir ziedoņa un plaukšanas dievība, gaismas un pavasara simbols, bišu un zirgu aizgādnis; hard
 Kā sauc divas taisnes plaknē, kas nekrustojas?; Paralēlas taisnes; hard
+Vai iespējams trīsstūris, kura malu garumi ir 1, 2 un 3?; Nē! Trīsstūra jebkuru divu malu garumu summai jābūt lielākai par trešo; hard; Toties iespējams ir trīsstūris, kura malu garumi ir 1.000001, 2 un 3.
 
 
 
