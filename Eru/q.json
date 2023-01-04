@@ -1265,5 +1265,187 @@
         "answer": "N\u0113! Tr\u012bsst\u016bra jebkuru divu malu garumu summai j\u0101b\u016bt liel\u0101kai par tre\u0161o",
         "difficulty": "hard",
         "fun_fact": "Toties iesp\u0113jams ir tr\u012bsst\u016bris, kura malu garumi ir 1.000001, 2 un 3."
+    },
+    {
+        "id": 182,
+        "question": "Kas ir Ventas rumba?",
+        "answer": "Ventas rumba ir plat\u0101kais dab\u012bgais \u016bdenskritums Eirop\u0101",
+        "difficulty": "hard",
+        "fun_fact": "Tas atrodas uz Ventas Kuld\u012bg\u0101, t\u0101 platums vid\u0113ji ir aptuveni 100m, bet pavasar\u012b palu laik\u0101 sasniedz pat 270m."
+    },
+    {
+        "id": 183,
+        "question": "K\u0101d\u0101 sporta veid\u0101 pan\u0101kumus guvis Sandis Ozoli\u0146\u0161?",
+        "answer": "hokej\u0101",
+        "difficulty": "hard",
+        "fun_fact": "Vi\u0146\u0161 ir vien\u012bgais latvie\u0161u hokejists, kur\u0161 izc\u012bn\u012bjis Stenlija kausu."
+    },
+    {
+        "id": 184,
+        "question": "Kur radusies opera?",
+        "answer": "It\u0101lij\u0101",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 185,
+        "question": "Kas ir \u0137\u0113k\u0161a?",
+        "answer": "Pav\u0101re, sieviete, kura gatavo \u0113dienu",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 186,
+        "question": "Kas ir burinieks?",
+        "answer": "Buru ku\u0123is - ku\u0123is, kuru uz priek\u0161u dzen v\u0113ja sp\u0113ks",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 187,
+        "question": "Kas ir sils?",
+        "answer": "Prie\u017eu me\u017es smil\u0161ain\u0101s augsn\u0113s",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 188,
+        "question": "Kas ir v\u0101g\u016bzis?",
+        "answer": "Saimniec\u012bbas telpa ratu, ragavu, darba r\u012bku un ma\u0161\u012bnu novieto\u0161anai. M\u016bsdien\u0101s - gar\u0101\u017ea",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 189,
+        "question": "Kas ir pirmskaitlis?",
+        "answer": "Natur\u0101ls skaitlis, kas liel\u0101ks par 1 un dal\u0101s tikai ar 1 un ar pa\u0161u skaitli",
+        "difficulty": "hard",
+        "fun_fact": "Pirmie 10 pirmskait\u013ci: 2, 3, 5, 7, 11, 13, 17, 19, 23, 29"
+    },
+    {
+        "id": 190,
+        "question": "Kas ir procents (%)?",
+        "answer": "Simtda\u013ca",
+        "difficulty": "hard",
+        "fun_fact": "Lat\u012b\u0146u valod\u0101 \"pro centum\" noz\u012bm\u0113 \"uz simtu\""
+    },
+    {
+        "id": 191,
+        "question": "Kas ir le\u0146\u0137is?",
+        "answer": "Plaknes da\u013ca, ko ierobe\u017eo divi stari ar kop\u012bgu s\u0101kumpunktu",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 192,
+        "question": "Kas ir perimetrs?",
+        "answer": "Apk\u0101rtm\u0113rs, robe\u017eas garums",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 193,
+        "question": "Kas ir pediatrs?",
+        "answer": "B\u0113rnu un pusaud\u017eu \u0101rsts",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 194,
+        "question": "Cik zobu ir pieaugu\u0161am ka\u0137im?",
+        "answer": "30",
+        "difficulty": "hard",
+        "fun_fact": "L\u012bdz\u012bgi cilv\u0113kiem, ar\u012b ka\u0137u mazu\u013ciem vispirms izaug piena zobi jeb prim\u0101rie zobi (26), kurus v\u0113l\u0101k aizst\u0101j patst\u0101v\u012bgie zobi"
+    },
+    {
+        "id": 195,
+        "question": "Cik sekun\u017eu ir vien\u0101 stund\u0101?",
+        "answer": "3600",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 196,
+        "question": "Kas ir Zemes reljefs?",
+        "answer": "Zemes virsmas nel\u012bdzenumi jeb pac\u0113lumi un ieliekumi, piem\u0113ram: pauguri, augstienes, zemienes",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 197,
+        "question": "K\u0101 sauc Zemes virs\u0113jo k\u0101rtu, kur\u0101 aug augu saknes un dz\u012bvo da\u017e\u0101di s\u012bki dz\u012bvnieki?",
+        "answer": "Augsne",
+        "difficulty": "medium",
+        "fun_fact": null
+    },
+    {
+        "id": 198,
+        "question": "S\u0113nes ir augi vai dz\u012bvnieki?",
+        "answer": "S\u0113nes nav ne augi, ne dz\u012bvnieki",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 199,
+        "question": "Kuras v\u0101rd\u0161\u0137iras v\u0101rdi nosauc priek\u0161metus, dz\u012bvas b\u016btnes, par\u0101d\u012bbas, vielas?",
+        "answer": "Lietv\u0101rdi",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 200,
+        "question": "K\u0101 sauc v\u0101rdu grupas, kur\u0101s v\u0101rdus sadala p\u0113c kop\u012bg\u0101m paz\u012bm\u0113m?",
+        "answer": "V\u0101rd\u0161\u0137iras",
+        "difficulty": "hard",
+        "fun_fact": null
+    },
+    {
+        "id": 201,
+        "question": "Kas ir hakeris?",
+        "answer": "Cilv\u0113ks, kur\u0161 interes\u0113jas par program\u0113\u0161anu, datorsist\u0113m\u0101m, u.tml. galvenok\u0101rt lai neat\u013cauti piek\u013c\u016btu datiem",
+        "difficulty": "hard",
+        "fun_fact": "Da\u017ek\u0101rt hakerus apzin\u0101ti noalgo lai atrastu sist\u0113mu vai iek\u0101rtu v\u0101j\u0101s vietas"
+    },
+    {
+        "id": 202,
+        "question": "Kas ir colla?",
+        "answer": "Garuma m\u0113rvien\u012bba. 1 colla = 2.54cm",
+        "difficulty": "hard",
+        "fun_fact": "Daudz\u0101s Eiropas valod\u0101s \u0161\u012b garuma apz\u012bm\u0113jums radies no v\u0101rda \"\u012bk\u0161\u0137is\"."
+    },
+    {
+        "id": 203,
+        "question": "Cik collu ir vien\u0101 p\u0113d\u0101?",
+        "answer": "12 collas",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 204,
+        "question": "Cik gar\u0161 ir maratons?",
+        "answer": "42.195 km jeb 42 kilometri un 195 metri",
+        "difficulty": "hard",
+        "fun_fact": "Ir le\u0123enda par Sen\u0101s Grie\u0137ijas kareivi, kur\u0161 noskr\u0113ja 42 km un 195 m no Maratonas l\u012bdz At\u0113n\u0101m, lai pazi\u0146otu par grie\u0137u uzvaru Maratonas kauj\u0101"
+    },
+    {
+        "id": 205,
+        "question": "Kura ir liel\u0101k\u0101 \u0100frikas valsts p\u0113c iedz\u012bvot\u0101ju skaita?",
+        "answer": "Nig\u0113rija ar aptuveni 184 miljoniem iedz\u012bvot\u0101ju",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 206,
+        "question": "Kura ir liel\u0101k\u0101 \u0100frikas valsts p\u0113c plat\u012bbas?",
+        "answer": "Al\u017e\u012brija",
+        "difficulty": "hard",
+        "fun_fact": ""
+    },
+    {
+        "id": 207,
+        "question": "Kuras valsts nosaukums c\u0113lies no v\u0101rda \"sudrabs\" apz\u012bm\u0113juma lat\u012b\u0146u valod\u0101?",
+        "answer": "Argent\u012bna (sudrabs lat\u012b\u0146u valod\u0101 ir \"argentum\")",
+        "difficulty": "hard",
+        "fun_fact": "Argent\u012bna 2022. gad\u0101 bija 10. viet\u0101 pasaul\u0113 p\u0113c sudraba ieguves apjoma"
     }
 ]
