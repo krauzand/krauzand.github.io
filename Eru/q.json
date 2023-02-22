@@ -1447,5 +1447,12 @@
         "answer": "Argent\u012bna (sudrabs lat\u012b\u0146u valod\u0101 ir \"argentum\")",
         "difficulty": "hard",
         "fun_fact": "Argent\u012bna 2022. gad\u0101 bija 10. viet\u0101 pasaul\u0113 p\u0113c sudraba ieguves apjoma"
+    },
+    {
+        "id": 208,
+        "question": "K\u0101 sauc B\u0101rta, Lizas un Megijas t\u0113ti no anim\u0101cijas seri\u0101la \"Simpsoni\"?",
+        "answer": "Hom\u0113rs",
+        "difficulty": "easy",
+        "fun_fact": "Hom\u0113ru Simpsonu rad\u012bja amerik\u0101\u0146u komiksu m\u0101kslinieks Mets Greinings, t\u0113lam dots v\u0101rds par godu Meta t\u0113vam Hom\u0113ram Greiningam."
     }
 ]
