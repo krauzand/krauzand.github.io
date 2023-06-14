@@ -56,7 +56,7 @@ function Laso(dictionary) {
             let anagramText = self.makeAnagram(wordText);
 
 
-            this.imageElement.innerHTML = `<img src="${wordImage}">`;
+            this.imageElement.innerHTML = `<img src="${wordImage}" alt="Saliec vārdu pa burtiem" style="width: 100%;">`;
 
 
             this.anagramElement.dataset.word = wordText;
@@ -68,7 +68,7 @@ function Laso(dictionary) {
 
             let i = 0;
             for (let letter of anagramText) {
-                this.wordElement.innerHTML += `<button class="btn m-1 btn-outline-primary" data-index="${i}" id="w-${i}" onclick="laso.putLetterBack(this)" style="width:${80/anagramText.length+'%'}">&nbsp;</button>`;
+                this.wordElement.innerHTML += `<button class="btn m-1 btn-outline-primary" data-index="${i}" id="w-${i}" onclick="laso.putLetterBack(this)" style="width:${80/anagramText.length+'%'}" aria-label="Nodzēst burtu" title="Nodzēst burtu">&nbsp;</button>`;
                 this.anagramElement.innerHTML += `<button class="btn m-1 btn-outline-primary" id="a-${i}" data-index="${i}" onclick="laso.putLetter(this)" style="width:${80/anagramText.length+'%'}">${letter}</button>`;
                 this.wordArray.push('\u00a0');
                 i++;
